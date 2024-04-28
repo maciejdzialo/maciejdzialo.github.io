@@ -1,11 +1,53 @@
 ---
-title: "maciejdzialo.github.io"
+title: "Maciej Działo"
+image: images/mdli.jpg
+toc: false
+about:
+  template: trestles
+  image-shape: round
+  image-width: 20em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/maciej-dzialo/
+    - text: GitHub
+      href: https://github.com/maciejdzialo
+    - text: Email
+      href: mailto:maciejdzialo@gmail.com
 ---
 
-This is a Quarto website.
+# Hello there!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Thanks for stopping by my little corner of the internet. My name is Maciej Działo and I am a scientific-oriented professional capable of leveraging data analysis for actionable insights. I collaborated on international research projects for eight years and two years in open-access scholarly publishing. My vision is to empower businesses to make informed, data-driven decisions.
 
-```{r}
-1 + 1
-```
+\
+🔧 I solve problems - a skill I enjoyed during my PhD journey. You can explore some of my scientific contributions here: https://lnkd.in/dzj88i7i\
+📈 I can wrangle data and provide insights - I am skilled in tidying data and leveraging it for statistical analyses, all in R.\
+🌎 I extend support and reach out - I've built relationships with researchers worldwide to amplify their research at scale.\
+💡 I know how to break out of my expertise bubble - I developed and constructed a prototype system that measures our cellular powerhouses 10x cheaper than a commonly used gold-standard system.\
+🧠 I’m a little obsessed with innovative ideas - I designed a visual prototype and described a vision for a new social-driven platform - to accelerate open science and break knowledge paywalls.\
+📖 I’m constantly learning and upskilling - to stay ahead, save time, and provide better insights.\
+❇️ I’m collaborative - let’s discover together!
+
+# Education
+
+-   Jagiellonian Interdisciplinary PhD Programme (2021) \| Jagiellonian University, Kraków, Poland
+
+-   PhD in Biological Sciences (2023) \| Jagiellonian University, Kraków, Poland
+
+-   MSc in Biology (2015) \| Jagiellonian University, Kraków, Poland
+
+-   BSc in Biology (2013) \| Jagiellonian University, Kraków, Poland
+
+# Professional Experience
+
+-   Publishing Specialist, Content - Data & Analytical Science Portfolio \| 2023 - present \| Frontiers Media, Poland
+
+-   Journal Specialist - Data & Analytical Science Portfolio \| 2022 - 2023 \| Frontiers Media, Poland
+
+-   Doctoral Researcher \| 2016 - 2023 \| Jagiellonian University, Poland
+
+-   Visiting Researcher \| 2020 - 2021 \| Max Planck Institute for Biological Intelligence, Germany
+
+-   Visiting Researcher \| 2019 \| University of Rhode Island, USA
+
+-   Graphic designer / DTP \| 2015 - 2016 \| Drukarnia Transfer, Poland
