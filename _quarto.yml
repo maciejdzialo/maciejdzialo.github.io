@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "maciejdzialo.github.io"
+  title: "Maciej Działo"
   navbar:
     left:
       - href: index.qmd
@@ -12,9 +12,10 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: minty
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 
