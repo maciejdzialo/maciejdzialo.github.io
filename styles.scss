@@ -1,0 +1,499 @@
+/*-- scss:defaults --*/
+
+// default theme base
+$theme:                           "cosmo" !default;
+
+// fonts import
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono&display=swap');
+
+// fonts style
+$headings-font-family:            "Montserrat", serif !default;
+$font-family-sans-serif:          "Quicksand", Figtree, Helvetica, sans-serif !default;
+$font-family-monospace:           "Fira Mono", monospace;
+
+// font sizes;
+$font-size-base:   1rem; //!default; // Assumes the browser default, typically `16px`
+$h1-font-size:     $font-size-base * 2.5 !default;
+$h2-font-size:     $font-size-base * 2 !default;
+$h3-font-size:     $font-size-base * 1.75 !default;
+$h4-font-size:     $font-size-base * 1.5 !default;
+$h5-font-size:     $font-size-base * 1.25 !default;
+$h6-font-size:     $font-size-base !default;
+
+// colors
+$primary:                         lighten(#FF6000, 5%) !default;
+
+$body-bg:                         #f7f7f7 !default;
+$body-color:                      #171717 !default;
+$headings-color:                  $body-color !default;
+$code-block-bg:                   darken($body-bg, 3%) !default;
+$navbar-bg:                       $body-bg !default;
+$navbar-hl:                       $primary !default;
+$footer-bg:                       $body-bg !default;
+$footer-fg:                       darken($body-bg, 30%) !default;
+
+$link-color:                      $primary !default;
+$link-shade-percentage:           30% !default;
+$link-hover-color:                shift-color($link-color, $link-shade-percentage) !default;
+
+$code-color:                      lighten($body-color, 10%) !default;
+$code-bg:                         darken($body-bg, 10%) !default;
+
+$card-border-color:               $body-color !default;
+$form-select-border-color:        $body-color !default;
+
+$badge-font-size:                   1em;
+$badge-font-weight:                 normal;
+$badge-color:                       $body-bg;
+$badge-padding-y:                   .35em;
+$badge-padding-x:                   .65em;
+$badge-border-radius:               .5rem ;
+
+
+
+/*-- scss:rules --*/
+
+#home-heading {
+  margin-top: 0;
+  padding-left: 1rem;
+  font-size: $h1-font-size;
+  font-weight: 700;
+  font-family: $headings-font-family;
+  text-align: right;
+}
+
+.badge {
+  margin-bottom: .3rem;
+}
+
+// add horizontal line at the top
+#quarto-header {
+  border-top: 5px solid $body-color;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+// links
+a {
+  color: $body-color;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  color: $primary;
+  text-decoration-color: $primary;
+}
+
+.toc-actions a {
+  text-decoration: none !important;
+  border-bottom: 0;
+}
+
+.toc-actions a:hover {
+  color: $primary;
+}
+
+// center navbar & remove menu l/r padding
+.navbar > .container-xxl,
+.navbar > .container-xl,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container,
+.navbar > .container-fluid {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// navbar
+.navbar-title {
+  font-size: $font-size-base * 2;
+  margin: 10;
+}
+
+.navbar .dropdown-header {
+  text-transform: none;
+}
+
+// animated underline on hover, when navbar shows as row
+@media screen and (min-width: 992px) {
+  a.nav-link {
+    position: relative;
+  }
+
+  a.nav-link:hover {
+    color: $primary;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    background-color: $primary;
+    width: 100%;
+    content: "";
+    height: 3px;
+    transition: 0.4s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 100% 50%;
+  }
+
+  .navbar .navbar-nav .nav-item:hover::after {
+    transform: scale3d(1,1,1);
+    transform-origin: 0 50%;
+  }
+
+}
+
+
+// home
+
+div.quarto-about-solana .about-entity .entity-contents{
+  text-align: left;
+  padding: 0 0 0 1rem;
+}
+
+
+div.quarto-about-solana .about-entity .about-links {
+  justify-content: flex-start !important;
+  column-gap: .7rem !important;
+}
+
+div.quarto-about-solana .about-entity .about-contents{
+  padding: 0 2rem 0 0 !important;
+}
+
+div.quarto-about-solana .about-entity .about-image{
+  margin-top: 1em;
+  padding: 0 4em 3em 0;
+}
+
+/* mobile query up for screens up to ~992px wide */
+@media screen and (max-width: 991.98px) {
+  div.quarto-about-solana .about-entity .entity-contents{
+    order: 1 !important;
+    text-align: center;
+  }
+
+div.quarto-about-solana .about-entity .about-links {
+    justify-content: center !important;
+    flex-direction: row;
+  }
+
+div.quarto-about-solana .about-entity .about-contents{
+    padding: 0 0 0 0 !important;
+  }
+
+div.quarto-about-solana .about-entity .about-image{
+    order: 2;
+    margin: 0 0 0 4em;
+    padding: 0 4em 3em 0;
+  }
+}
+
+
+
+// about icon links
+div.quarto-about-solana .about-entity .about-link {
+    font-size: 1.5em;
+    padding: 3px 4px 3px 7px;
+    background-color: transparent;
+    color: $primary;
+    border: 0 !important;
+    border-color: $primary;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+div.quarto-about-solana  .about-entity .about-link:hover{
+    background-color: $primary;
+    color: $body-bg;
+    border-color: $primary;
+    text-decoration: none;
+}
+
+
+// home containers
+
+.grid {
+  //align-items: start;
+  margin-bottom: 3rem;
+}
+
+.grid-left {
+  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
+}
+
+.grid-left:after {
+  content: ''; /* Required for the pseudo-element to appear */
+  position: absolute; /* Position the pseudo-element relative to the container */
+  top: -1rem; /* Shift the pseudo-element down by 1rem */
+  left: -100rem; /* Shift the pseudo-element right by 1rem */
+  right: -1rem; /* Ensure the pseudo-element extends 1rem beyond the original border on the right side */
+  bottom: -1rem; /* Ensure the pseudo-element extends 1rem beyond the original border on the bottom side */
+  border-top: .2rem dashed lighten($body-color, 70%) !important;
+  border-right: .2rem dashed lighten($body-color, 70%) !important;
+  border-bottom: .2rem dashed lighten($body-color, 70%) !important;
+  border-radius: 1.5rem !important;
+  pointer-events: none;
+}
+
+.grid-right {
+  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
+}
+
+.grid-right:after {
+  content: ''; /* Required for the pseudo-element to appear */
+  position: absolute; /* Position the pseudo-element relative to the container */
+  top: -1rem; /* Shift the pseudo-element down by 1rem */
+  left: -1rem; /* Shift the pseudo-element right by 1rem */
+  right: -100rem; /* Ensure the pseudo-element extends 1rem beyond the original border on the right side */
+  bottom: -1rem; /* Ensure the pseudo-element extends 1rem beyond the original border on the bottom side */
+  border-top: .2rem dashed lighten($body-color, 70%) !important;
+  border-left: .2rem dashed lighten($body-color, 70%) !important;
+  border-bottom: .2rem dashed lighten($body-color, 70%) !important;
+  border-radius: 1.5rem !important;
+  pointer-events: none;
+}
+
+.btn {
+  margin-bottom: .3rem;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.cont-dark-right-img {
+  background-color: $body-color;
+  position: relative;
+  color: $body-bg;
+  border-radius: 1.5rem 0 0 1.5rem !important;
+}
+
+.cont-dark-right-img img {
+  border-radius: 1.5rem 0 0 1.5rem !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .cont-dark-right-img img {
+    position: relative;
+  }
+}
+
+.cont-dark-left-img {
+  background-color: $body-color;
+  position: relative;
+  color: $body-bg;
+  border-radius: 0 1.5rem 1.5rem 0 !important;
+}
+
+.cont-dark-left-img img {
+  border-radius: 0 1.5rem 1.5rem 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .cont-dark-left-img img {
+    position: relative;
+  }
+}
+
+
+.cont-dark-right-img p,
+.cont-dark-left-img p,
+.cont-light-both p {
+  margin-bottom: 0;
+}
+
+.cont-dark-right-img a:hover,
+.cont-dark-left-img a:hover {
+  color: $primary
+}
+
+.cont-dark-right-img:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: calc(100vw - 100%);
+  height: 100%;
+  background-color: inherit;
+  z-index: -1;
+}
+
+.cont-dark-left-img:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: calc(100vw - 100%);
+  height: 100%;
+  background-color: inherit;
+  z-index: -1;
+}
+
+/* Style for light container */
+.cont-light-both {
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+}
+
+.cont-light-both-img {
+  padding: 6rem;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+}
+
+.cont-light-both-img img {
+  border-radius: 1.5rem !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cont-light-both-img h3 {
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+  z-index: 1; /* Ensure text is above the image */
+  background-color: $body-color;
+  color: $body-bg;
+  border-radius: .5rem;
+  padding: .5rem .7rem .5rem .7rem;
+
+}
+
+.cont-light-both-img a {
+  color: $body-bg;
+  text-decoration: none;
+}
+
+.cont-light-both-img a:hover {
+  color: $primary;
+}
+
+@media screen and (max-width: 768px) {
+  .cont-light-both img {
+    position: relative;
+  }
+}
+
+.cont-light-both a,
+.cont-light-both h1,
+.cont-light-both h2,
+.cont-light-both h3,
+.cont-light-both h4,
+.cont-light-both h5,
+.cont-light-both h6 {
+  margin: 0 0 1.5rem 0;
+}
+
+.accordion-header {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: $body-color;
+}
+
+// containers dark/light
+
+.homeicon {
+  font-size: 350%;
+  color: $body-bg;
+}
+
+.cont-dark-right {
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  background-color: $body-color;
+  position: relative;
+  color: $body-bg;
+  border-radius: 1.5rem 0 0 1.5rem !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: top;
+}
+
+.cont-dark-left {
+  padding-top: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1rem;
+  background-color: $body-color;
+  position: relative;
+  color: $body-bg;
+  border-radius: 0 1.5rem 1.5rem 0 !important;
+  display: flex;
+  justify-content: flex-end;
+  align-items: top;
+}
+
+.cont-dark-right p,
+.cont-dark-left p,
+.cont-light-both p {
+  margin-bottom: 0;
+}
+
+.cont-dark-right a:hover,
+.cont-dark-left a:hover {
+  color: $primary
+}
+
+.cont-dark-right:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: calc(100vw - 100%);
+  height: 100%;
+  background-color: inherit;
+  z-index: -1;
+}
+
+.cont-dark-left:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: calc(100vw - 100%);
+  height: 100%;
+  background-color: inherit;
+  z-index: -1;
+}
