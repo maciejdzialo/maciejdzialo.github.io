@@ -431,16 +431,6 @@ body {
   align-items: top;
 }
 
-.cont-dark-rightaaaa:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: x;
-  height: 100%;
-  background-color: inherit;
-  z-index: -1;
-}
 
 .cont-dark-right:after {
   content: '';
@@ -484,13 +474,13 @@ body {
 
 .grid-left:after {
   content: '';
-    position: absolute;
-    top: -1rem;
-    left: -1rem;
-    right: -1rem;
-    bottom: -1rem;
-    border: 2px solid red; /* Adjust color and thickness as needed */
-    pointer-events: none; /* Ensure the pseudo-element doesn't interfere with pointer events */
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  right: calc((100vw - var(--grid-width))/-2);;
+  bottom: 0rem;
+  border: 2px solid red; /* Adjust color and thickness as needed */
+  pointer-events: none; /* Ensure the pseudo-element doesn't interfere with pointer events */
 }
 
 .grid-right {
