@@ -1,0 +1,276 @@
+---
+title: "Maciej Działo"
+pagetitle: "Maciej Działo"
+subtitle: "Data explorer experienced in life sciences"
+image: assets/img/md_headshot.jpg
+
+about:
+  template: solana
+  image-width: 21em
+  image-shape: round
+  id: hero-heading
+  links:
+    - href: https://github.com/maciejdzialo
+      icon: github
+      target: tab
+    - href: https://www.linkedin.com/in/maciej-dzialo/
+      icon: linkedin
+      target: tab
+    - icon: mortarboard-fill
+      href: https://scholar.google.com/citations?user=aOhRKgEAAAAJ&hl=en
+      target: tab
+    - text: "{{< ai researchgate >}}"
+      href: https://www.researchgate.net/profile/Maciej-Dzialo
+      target: tab
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0002-3632-8572
+      target: tab
+      
+format: 
+  html: 
+    page-layout: full
+    lightbox: false
+
+---
+
+::: {#hero-heading}
+
+Thanks for popping into my little corner of the internet!<br><br>I am a researcher capable of leveraging data analysis for actionable **insights**. I collaborated on international **research** projects for eight years and two years in open-access scholarly publishing. My career vision is **to empower** teams and together make informed, data-driven decisions.
+
+[Learn more about me &rarr;](about.qmd){.about-links}
+[Let's have a chat! &rarr;](contact.qmd){.about-links}
+
+:::
+<br>
+
+
+[Who am I?]{#home-heading}
+<br><br>
+
+<!-- #0 -->
+::: {.grid .grid-left}
+::: {.g-col-12 .g-col-md-1 .cont-dark-left}
+[{{< fa terminal >}}]{.homeicon}
+:::
+::: {.g-col-12 .g-col-md-11 .cont-light-both}
+### At glance
+```{=html}
+
+
+<div class="accordion" id="accordion-glance">
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataAnalysis" aria-expanded="true" aria-controls="collapseDataAnalysis">
+      Data Analysis Tools
+    </button>
+  </h2>
+  <div id="collapseDataAnalysis" class="accordion-collapse collapse show" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-primary">R</span>
+      <span class="badge bg-primary">R/Tidyverse</span>
+      <span class="badge bg-primary">Quarto</span>
+      <span class="badge bg-primary">SQL</span>
+      <span class="badge bg-primary">Excel</span>
+      <span class="badge bg-primary">Google Sheets</span>
+      <span class="badge bg-primary">SAS</span>
+    </div>
+  </div>
+</div>
+
+  <div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTechnical" aria-expanded="true" aria-controls="collapseTechnical">
+      Technical Skills
+    </button>
+  </h2>
+  <div id="collapseTechnical" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-secondary">Data wrangling</span>
+      <span class="badge bg-secondary">Data visualization</span>
+      <span class="badge bg-secondary">Statistical analysis</span>
+      <span class="badge bg-secondary">Research methodologies</span>
+      <span class="badge bg-secondary">Experimental design</span>
+      <span class="badge bg-secondary">Linear models</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSoftSkills" aria-expanded="true" aria-controls="collapseSoftSkills">
+      Soft Skills
+    </button>
+  </h2>
+  <div id="collapseSoftSkills" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-warning text-dark">Problem solving</span>
+      <span class="badge bg-warning text-dark">Analytical thinking</span>
+      <span class="badge bg-warning text-dark">Project coordination</span>
+      <span class="badge bg-warning text-dark">Time management</span>
+      <span class="badge bg-warning text-dark">Writing skills</span>
+      <span class="badge bg-warning text-dark">Reporting skills</span>
+      <span class="badge bg-warning text-dark">Presentation skills</span>
+      <span class="badge bg-warning text-dark">Teaching</span>
+      <span class="badge bg-warning text-dark">Effective communication skills</span>
+      <span class="badge bg-warning text-dark">Customer service</span>
+      <span class="badge bg-warning text-dark">Teamwork</span>
+      <span class="badge bg-warning text-dark">Fast learning</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSoftware" aria-expanded="true" aria-controls="collapseSoftware">
+      Office & Other Tools
+    </button>
+  </h2>
+  <div id="collapseSoftware" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-success">Google Workspace</span>
+      <span class="badge bg-success">MS Office</span>
+      <span class="badge bg-success">Jira</span>
+      <span class="badge bg-success">Confluence</span>
+      <span class="badge bg-success">Salesforce Marketing Cloud</span>
+      <span class="badge bg-success">Adobe Creative Suite</span>
+      <span class="badge bg-success">Notion</span>
+      <span class="badge bg-success">UNIX/Linux</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLanguages" aria-expanded="true" aria-controls="collapseLanguages">
+      Language
+    </button>
+  </h2>
+  <div id="collapseLanguages" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-info">Polish (native)</span>
+      <span class="badge bg-info">English (C1)</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataCamp" aria-expanded="true" aria-controls="collapseDataCamp">
+      Certifications
+    </button>
+  </h2>
+  <div id="collapseDataCamp" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/f89eef43b469e7a0c348fc86541c101589c1ec01" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Associate Data Analyst in SQL (39hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/630874bff6af1e44db9a445b0c1b71b61aed954c" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">SQL Fundamentals (26hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/c476eb490230bc15664112a7fe141c30ca25e883" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">SQL for Business Analysts (20hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/5cc41d69a48c66e8f4b2c77eea784375fbd91841" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Intermediate Google Sheets (12hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/d4632dce5e4a9cc8dd3c0f2b522fc7c9d6b305a5" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Google Sheets Fundamentals (17hrs)</span></a>
+      <br><span>(Click to see the details)</span>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<style>
+  .badge .badge-icon {
+    width: auto;
+    height: 1em; /* Adjust icon height relative to text */
+    margin-right: .5rem;
+    margin-bottom: .1rem;
+  }
+</style>
+
+
+
+```
+:::
+:::
+
+<!-- #1 -->
+::: {.grid .grid-right}
+::: {.g-col-12 .g-col-md-7 .cont-light-both}
+### I analyse data
+My hands-on experience in data wrangling and analysis (both exploratory and statistical) was key in completing my PhD. I’m skilled in R, SQL, and spreadsheets. I enjoy tinkering with visualizations and always aim to tell a data-driven story.
+:::
+::: {.g-col-12 .g-col-md-4 .cont-light-both-img}
+### [My projects {{< fa link >}}](projects.qmd)
+![](https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+:::
+::: {.g-col-12 .g-col-md-1 .cont-dark-right}
+[{{< fa magnifying-glass-chart >}}]{.homeicon}
+:::
+:::
+
+<!-- #2 -->
+::: {.grid .grid-left}
+::: {.g-col-12 .g-col-md-1 .cont-dark-left}
+[{{< fa screwdriver-wrench >}}]{.homeicon}
+:::
+::: {.g-col-12 .g-col-md-4 .cont-light-both-img}
+### [My academic<br>research {{< fa link >}}](https://scholar.google.com/citations?user=aOhRKgEAAAAJ&hl=en){target="_blank"}
+![](https://images.unsplash.com/photo-1468487422149-5edc5034604f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+:::
+::: {.g-col-12 .g-col-md-7 .cont-light-both}
+### I solve problems 
+Life and professional challenges often have diverse solutions, and I enjoy finding optimal ones. My PhD trained me in rigorous data analysis and research methodologies enabling me to tackle challenges systematically and with creativity.
+:::
+:::
+
+<!-- #3 -->
+::: {.grid .grid-right}
+::: {.g-col-12 .g-col-md-11 .cont-light-both}
+### I break out (of my expertise bubble)
+My scholarly work provided empirical evidence for a long-standing postulate. Through interdisciplinary collaboration, my work led to the development of a cost-effective measurement system prototype.
+:::
+::: {.g-col-12 .g-col-md-1 .cont-dark-right}
+[{{< fa up-right-from-square >}}]{.homeicon}
+:::
+:::
+
+<!-- #4 -->
+::: {.grid .grid-left}
+::: {.g-col-12 .g-col-md-1 .cont-dark-left}
+[{{< fa lightbulb >}}]{.homeicon}
+:::
+::: {.g-col-12 .g-col-md-11 .cont-light-both}
+### I'm inspired by innovative ideas 
+While in publishing, I identified a gap and opportunity for an innovative product within my company. I dedicated my off-work time to designing a visual prototype. After conceptualizing product vision, the prototype received positive feedback from my colleagues in a dedicated product team.
+:::
+:::
+
+<!-- #5 -->
+::: {.grid .grid-right}
+::: {.g-col-12 .g-col-md-11 .cont-light-both}
+### I’m collaborative.
+Believing in the power of teamwork, I enjoy cross-functional collaboration, valuing insights from every team member - no important decisions should be made in a silo.
+:::
+::: {.g-col-12 .g-col-md-1 .cont-dark-right}
+[{{< fa people-group >}}]{.homeicon}
+:::
+:::
+
+<!-- #6 -->
+::: {.grid .grid-left}
+::: {.g-col-12 .g-col-md-1 .cont-dark-left}
+[{{< fa hand-holding >}}]{.homeicon}
+:::
+::: {.g-col-12 .g-col-md-11 .cont-light-both}
+### I extend support
+My publishing journey was all about supporting researchers in amplifying their work - to disseminate knowledge and break publishing paywalls at scale. I strategically developed content for three scholarly journals and fostered numerous relationships with researchers worldwide, both early-career and senior.
+:::
+:::
+
+<!-- #7 -->
+::: {.grid .grid-right}
+::: {.g-col-12 .g-col-md-11 .cont-light-both}
+### I’m upskilling.
+Currently pursuing analytics-related certifications but I also enjoy exploring non-data topics, e.g. related to parenting, productivity, and science. I’m utilizing my ‘second brain’ built in Notion, which aims to optimize my life and work.
+:::
+::: {.g-col-12 .g-col-md-1 .cont-dark-right}
+[{{< fa arrow-up-right-dots >}}]{.homeicon}
+:::
+:::
