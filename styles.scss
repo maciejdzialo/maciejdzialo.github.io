@@ -231,6 +231,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 .grid {
   //align-items: start;
   margin-bottom: 3rem;
+  --grid-width: 100%;
 }
 
 
@@ -446,7 +447,7 @@ body {
   position: absolute;
   top: 0;
   left: 100%;
-  width: 5vw;
+  width: calc((100vw - var(--grid-width))/2);
   height: 100%;
   background-color: inherit;
 }
