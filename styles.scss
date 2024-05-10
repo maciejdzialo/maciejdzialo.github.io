@@ -240,12 +240,12 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 .grid-left:after {
   content: ''; /* Required for the pseudo-element to appear */
   position: absolute; /* Position the pseudo-element relative to the container */
-  top: -1rem; /* Shift the pseudo-element down by 1rem */
-  left: -100rem; /* Shift the pseudo-element right by 1rem */
-  right: -1rem; /* Ensure the pseudo-element extends 1rem beyond the original border on the right side */
-  bottom: -1rem; /* Ensure the pseudo-element extends 1rem beyond the original border on the bottom side */
+  top: -1rem; /* Shift the pseudo-element up by 1rem */
+  left: -1rem; /* Shift the pseudo-element left by 1rem */
+  right: calc(100vw - 1rem); /* Extend the pseudo-element to the right edge of the viewport minus 1rem */
+  bottom: -1rem; /* Shift the pseudo-element down by 1rem */
   border-top: .2rem dashed lighten($body-color, 70%) !important;
-  border-right: .2rem dashed lighten($body-color, 70%) !important;
+  border-left: .2rem dashed lighten($body-color, 70%) !important;
   border-bottom: .2rem dashed lighten($body-color, 70%) !important;
   border-radius: 1.5rem !important;
   pointer-events: none;
