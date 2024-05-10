@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: ""
+  navbar:
+    right:
+      - href: index.qmd
+        text: intro
+      - href: about.qmd
+        text: about
+      - posts.qmd
+      - icon: envelope-fill
+        href: contact.qmd
+  page-footer:
+    left: |
+     &#169; 2024 Maciej Działo &#8729;
+     Made with [Quarto](https://quarto.org) & [R](https://www.r-project.org/)
+    right:
+      - icon: github
+        href: https://github.com/maciejdzialo
+        target: tab
+      - icon: linkedin
+        href: https://www.linkedin.com/in/maciej-dzialo/
+        target: tab
+      - icon: mortarboard-fill
+        href: https://scholar.google.com/citations?user=aOhRKgEAAAAJ&hl=en
+        target: tab
+      - text: "{{< ai researchgate >}}"
+        href: https://www.researchgate.net/profile/Maciej-Dzialo
+        target: tab
+      - text: "{{< ai orcid >}}"
+        href: https://orcid.org/0000-0002-3632-8572
+        target: tab
+    border: true
+    background: dark
+  page-navigation: true
+  back-to-top-navigation: true
+
+
+format:
+  html:
+    theme: styles.scss
+    page-layout: full
+    smooth-scroll: true
+    lightbox: true
+
+execute:
+  freeze: auto
+

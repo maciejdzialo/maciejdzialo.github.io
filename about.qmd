@@ -1,0 +1,43 @@
+---
+title: "About the author"
+image: images/mdli.jpg
+toc: false
+about:
+  template: solana
+  image-shape: round
+  image-width: 12em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/maciej-dzialo/
+      icon: linkedin
+    - text: GitHub
+      href: https://github.com/maciejdzialo
+      icon: github
+    - text: Email
+      href: mailto:maciejdzialo@gmail.com
+      icon: envelope-fill
+---
+
+# Education
+
+-   Jagiellonian Interdisciplinary PhD Programme (2021) \| Jagiellonian University, Kraków, Poland
+
+-   PhD in Biological Sciences (2023) \| Jagiellonian University, Kraków, Poland
+
+-   MSc in Biology (2015) \| Jagiellonian University, Kraków, Poland
+
+-   BSc in Biology (2013) \| Jagiellonian University, Kraków, Poland
+
+# Professional Experience
+
+-   Publishing Specialist, Content - Data & Analytical Science Portfolio \| 2023 - present \| Frontiers Media, Poland
+
+-   Journal Specialist - Data & Analytical Science Portfolio \| 2022 - 2023 \| Frontiers Media, Poland
+
+-   Doctoral Researcher \| 2016 - 2023 \| Jagiellonian University, Poland
+
+-   Visiting Researcher \| 2020 - 2021 \| Max Planck Institute for Biological Intelligence, Germany
+
+-   Visiting Researcher \| 2019 \| University of Rhode Island, USA
+
+-   Graphic designer / DTP \| 2015 - 2016 \| Drukarnia Transfer, Poland
