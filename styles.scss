@@ -436,10 +436,10 @@ body {
 .cont-dark-right:after {
   content: '';
   position: absolute;
-  top: 0;
+  top: 0rem;
   left: 100%;
-  width: calc((100vw - var(--grid-width))/2);
-  height: 100%;
+  right: calc((100vw - var(--grid-width))/-2);;
+  bottom: 0rem;
   background-color: inherit;
 }
 
