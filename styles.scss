@@ -69,6 +69,7 @@ $badge-border-radius:               .5rem ;
 
 .badge {
   margin-bottom: .3rem;
+  white-space: normal;
 }
 
 // add horizontal line at the top
@@ -437,11 +438,10 @@ body {
   position: absolute;
   top: 0;
   left: 100%;
-  right: calc((100vw - var(--grid-width))/-2);;
-  bottom: 0rem;
+  width: calc((100vw - var(--grid-width))/2);
+  height: 100%;
   background-color: inherit;
 }
-
 
 .cont-dark-left {
   padding-top: 1rem;
@@ -459,11 +459,12 @@ body {
 .cont-dark-left:after {
   content: '';
   position: absolute;
-  top: 0;
-  right: 100%;
-  left: calc((100vw - var(--grid-width))/-2);;
-  bottom: 0rem;
+  top: -1rem;
+  left: -100rem;
+  right: -1rem;
+  bottom: -1rem;
   background-color: inherit;
+  z-index: -1;
 }
 
 
@@ -488,12 +489,16 @@ body {
 }
 
 .grid-right:after {
-  content: '';
-  position: absolute;
-  top: 0rem;
-  left: 0rem;
-  right: calc((100vw - var(--grid-width))/-2);;
-  bottom: 0rem;
-  border: 2px solid red; /* Adjust color and thickness as needed */
-  pointer-events: none; /* Ensure the pseudo-element doesn't interfere with pointer events */
+  content: ''; /* Required for the pseudo-element to appear */
+  position: absolute; /* Position the pseudo-element relative to the container */
+  top: -1rem; /* Shift the pseudo-element down by 1rem */
+  left: -1rem; /* Shift the pseudo-element right by 1rem */
+  right: 0; /* Extend the pseudo-element to the right edge of the viewport */
+  width: 100vw;
+  bottom: -1rem; /* Ensure the pseudo-element extends 1rem beyond the original border on the bottom side */
+  border-top: .2rem dashed lighten($body-color, 70%) !important;
+  border-left: .2rem dashed lighten($body-color, 70%) !important;
+  border-bottom: .2rem dashed lighten($body-color, 70%) !important;
+  border-radius: 1.5rem !important;
+  pointer-events: none;
 }
