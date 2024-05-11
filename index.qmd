@@ -191,7 +191,7 @@ Thanks for popping into my little corner of the internet!<br><br>I am a research
 :::
 
 <!-- #1 -->
-::: {.grid .grid-right}
+::: {.grid}
 ::: {.g-col-12 .g-col-md-7 .cont-light-both}
 ### I analyse data
 My hands-on experience in data wrangling and analysis (both exploratory and statistical) was key in completing my PhD. I’m skilled in R, SQL, and spreadsheets. I enjoy tinkering with visualizations and always aim to tell a data-driven story.

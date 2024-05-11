@@ -404,7 +404,7 @@ body {
 
 .homeicon {
   font-size: 350%;
-  color: $body-bg;
+  color: $body-color;
 }
 
 .cont-dark-right p,
@@ -447,10 +447,8 @@ body {
   padding-top: 1rem;
   padding-left: 1.5rem;
   padding-bottom: 1rem;
-  background-color: $body-color;
   position: relative;
-  color: $body-bg;
-  border-radius: 1.5rem 0 0 1.5rem !important;
+  color: $body-color;
   display: flex;
   justify-content: flex-start;
   align-items: top;
@@ -462,11 +460,11 @@ body {
   position: absolute;
   top: 0rem;
   left: 0rem;
-  right: 2rem;//calc((100vw - var(--grid-width))/-2);;
+  right: calc((100vw - var(--grid-width))/-2);
   bottom: 0rem;
-  background-color: inherit;
+  border: 2px dashed lighten($body-color, 30%); /* Adjust color and thickness as needed */
+  border-radius: 1.5rem 0 0 1.5rem ;
   pointer-events: none; /* Ensure the pseudo-element doesn't interfere with pointer events */
-  overflow-x: hidden;
 }
 
 
@@ -479,9 +477,10 @@ body {
   position: absolute;
   top: 0rem;
   left: 0rem;
-  right: calc((100vw - var(--grid-width))/-2);;
+  right: calc((100vw - var(--grid-width))/-2);
   bottom: 0rem;
-  border: 2px solid red; /* Adjust color and thickness as needed */
+  border: 2px dashed lighten($body-color, 30%); /* Adjust color and thickness as needed */
+  border-radius: 1.5rem 0 0 1.5rem ;
   pointer-events: none; /* Ensure the pseudo-element doesn't interfere with pointer events */
 }
 
