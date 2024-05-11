@@ -200,7 +200,7 @@ My hands-on experience in data wrangling and analysis (both exploratory and stat
 ### [My projects {{< fa link >}}](projects.qmd)
 ![](https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 :::
-::: {.g-col-12 .g-col-md-1 .cont-dark-right}
+::: {.g-col-12 .g-col-md-1 .grid-right}
 [{{< fa magnifying-glass-chart >}}]{.homeicon}
 :::
 :::
