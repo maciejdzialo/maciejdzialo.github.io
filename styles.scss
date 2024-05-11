@@ -459,12 +459,11 @@ body {
 .cont-dark-left:after {
   content: '';
   position: absolute;
-  top: -1rem;
-  left: -100rem;
-  right: -1rem;
-  bottom: -1rem;
+  top: 0;
+  right: 100%;
+  left: calc((100vw - var(--grid-width))/-2);;
+  bottom: 0rem;
   background-color: inherit;
-  z-index: -1;
 }
 
 
