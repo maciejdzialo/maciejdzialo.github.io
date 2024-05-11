@@ -486,7 +486,7 @@ body {
   content: '';
   position: absolute;
   top: 0rem;
-  left: 0rem;
+  left: 100%;
   right: calc((100vw - var(--grid-width))/-2);;
   bottom: 0rem;
   border: 2px solid red; /* Adjust color and thickness as needed */
