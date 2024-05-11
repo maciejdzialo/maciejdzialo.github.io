@@ -489,16 +489,12 @@ body {
 }
 
 .grid-right:after {
-  content: ''; /* Required for the pseudo-element to appear */
-  position: absolute; /* Position the pseudo-element relative to the container */
-  top: -1rem; /* Shift the pseudo-element down by 1rem */
-  left: -1rem; /* Shift the pseudo-element right by 1rem */
-  right: 0; /* Extend the pseudo-element to the right edge of the viewport */
-  width: 100vw;
-  bottom: -1rem; /* Ensure the pseudo-element extends 1rem beyond the original border on the bottom side */
-  border-top: .2rem dashed lighten($body-color, 70%) !important;
-  border-left: .2rem dashed lighten($body-color, 70%) !important;
-  border-bottom: .2rem dashed lighten($body-color, 70%) !important;
-  border-radius: 1.5rem !important;
-  pointer-events: none;
+  content: '';
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  right: calc((100vw - var(--grid-width))/-2);;
+  bottom: 0rem;
+  border: 2px solid red; /* Adjust color and thickness as needed */
+  pointer-events: none; /* Ensure the pseudo-element doesn't interfere with pointer events */
 }
