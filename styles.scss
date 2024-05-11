@@ -466,6 +466,7 @@ body {
   bottom: 0rem;
   background-color: inherit;
   pointer-events: none; /* Ensure the pseudo-element doesn't interfere with pointer events */
+  overflow-x: hidden;
 }
 
 
