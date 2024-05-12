@@ -242,6 +242,10 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 // home containers
 
+body {
+  overflow-x: hidden;
+}
+
 .grid {
   //align-items: start;
   margin-bottom: 3rem;
@@ -329,6 +333,17 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   --cont-height: 100%;
 }
 
+.cont-home-icon:after {
+  content: '';
+  position: absolute;
+  top: -.15rem;
+  left: 100%;
+  right: calc((100vw - var(--grid-width))/-2);
+  bottom: -.1rem;
+  border-top: .15rem dashed $primary; //lighten($body-color, 30%);
+  border-bottom: .15rem dashed $primary; //lighten($body-color, 30%);
+  pointer-events: none;
+}
 
 @media screen and (max-width: 768px) {
   .cont-home-icon {
@@ -352,14 +367,4 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 }
 
-.grid-right:after {
-  content: '';
-  position: absolute;
-  top: 0rem;
-  left: 100%;
-  right: calc((100vw - var(--grid-width))/-2);
-  height: var(--cont-height);
-  border-top: .15rem dashed $primary; //lighten($body-color, 30%);
-  border-bottom: .15rem dashed $primary; //lighten($body-color, 30%);
-  pointer-events: none;
-}
+
