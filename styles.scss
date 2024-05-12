@@ -187,6 +187,13 @@ div.quarto-about-solana .about-entity .about-image{
   margin-top: 1em;
 }
 
+div.quarto-about-solana .about-entity img.round{
+  border-top-left-radius: 8%;
+  border-top-right-radius: 70%;
+  border-bottom-left-radius: 8%;
+  border-bottom-right-radius: 70%;
+}
+
 
 /* mobile query up for screens up to ~992px wide */
 @media screen and (max-width: 991.98px) {
