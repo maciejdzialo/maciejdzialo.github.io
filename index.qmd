@@ -48,7 +48,7 @@ Thanks for popping into my little corner of the internet!<br><br>I am a research
 <br><br>
 
 <!-- #0 -->
-::: {.grid}
+::: {.grid .grid-left}
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa terminal >}}]{.homeicon}
 :::
@@ -191,8 +191,10 @@ Thanks for popping into my little corner of the internet!<br><br>I am a research
 :::
 :::
 
+<br>
+
 <!-- #1 -->
-::: {.grid}
+::: {.grid .grid-right}
 ::: {.g-col-12 .g-col-md-7 .cont-light}
 ### I analyse data
 My hands-on experience in data wrangling and analysis (both exploratory and statistical) was key in completing my PhD. I’m skilled in R, SQL, and spreadsheets. I enjoy tinkering with visualizations and always aim to tell a data-driven story.
