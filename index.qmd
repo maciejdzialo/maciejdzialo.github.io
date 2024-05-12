@@ -191,8 +191,6 @@ Thanks for popping into my little corner of the internet!<br><br>I am a research
 :::
 :::
 
-<br>
-
 <!-- #1 -->
 ::: {.grid .grid-right}
 ::: {.g-col-12 .g-col-md-7 .cont-light}
@@ -205,5 +203,75 @@ My hands-on experience in data wrangling and analysis (both exploratory and stat
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa magnifying-glass-chart >}}]{.homeicon}
+:::
+:::
+
+<!-- #2 -->
+::: {.grid .grid-left}
+::: {.g-col-12 .g-col-md-1 .cont-home-icon}
+[{{< fa screwdriver-wrench >}}]{.homeicon}
+:::
+::: {.g-col-12 .g-col-md-4 .cont-light-img}
+### [My academic<br>research {{< fa link >}}](https://scholar.google.com/citations?user=aOhRKgEAAAAJ&hl=en){target="_blank"}
+![](https://images.unsplash.com/photo-1468487422149-5edc5034604f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+:::
+::: {.g-col-12 .g-col-md-7 .cont-light}
+### I solve problems 
+Life and professional challenges often have diverse solutions, and I enjoy finding optimal ones. My PhD trained me in rigorous data analysis and research methodologies enabling me to tackle challenges systematically and with creativity.
+:::
+:::
+
+<!-- #3 -->
+::: {.grid .grid-right}
+::: {.g-col-12 .g-col-md-11 .cont-light}
+### I break out (of my expertise bubble)
+My scholarly work provided empirical evidence for a long-standing postulate. Through interdisciplinary collaboration, my work led to the development of a cost-effective measurement system prototype.
+:::
+::: {.g-col-12 .g-col-md-1 .cont-home-icon}
+[{{< fa up-right-from-square >}}]{.homeicon}
+:::
+:::
+
+<!-- #4 -->
+::: {.grid .grid-left}
+::: {.g-col-12 .g-col-md-1 .cont-home-icon}
+[{{< fa lightbulb >}}]{.homeicon}
+:::
+::: {.g-col-12 .g-col-md-11 .cont-light}
+### I'm inspired by innovative ideas 
+While in publishing, I identified a gap and opportunity for an innovative product within my company. I dedicated my off-work time to designing a visual prototype. After conceptualizing product vision, the prototype received positive feedback from my colleagues in a dedicated product team.
+:::
+:::
+
+<!-- #5 -->
+::: {.grid .grid-right}
+::: {.g-col-12 .g-col-md-11 .cont-light}
+### I’m collaborative.
+Believing in the power of teamwork, I enjoy cross-functional collaboration, valuing insights from every team member - no important decisions should be made in a silo.
+:::
+::: {.g-col-12 .g-col-md-1 .cont-home-icon}
+[{{< fa people-group >}}]{.homeicon}
+:::
+:::
+
+<!-- #6 -->
+::: {.grid .grid-left}
+::: {.g-col-12 .g-col-md-1 .cont-home-icon}
+[{{< fa hand-holding >}}]{.homeicon}
+:::
+::: {.g-col-12 .g-col-md-11 .cont-light}
+### I extend support
+My publishing journey was all about supporting researchers in amplifying their work - to disseminate knowledge and break publishing paywalls at scale. I strategically developed content for three scholarly journals and fostered numerous relationships with researchers worldwide, both early-career and senior.
+:::
+:::
+
+<!-- #7 -->
+::: {.grid .grid-right}
+::: {.g-col-12 .g-col-md-11 .cont-light}
+### I’m upskilling.
+Currently pursuing analytics-related certifications but I also enjoy exploring non-data topics, e.g. related to parenting, productivity, and science. I’m utilizing my ‘second brain’ built in Notion, which aims to optimize my life and work.
+:::
+::: {.g-col-12 .g-col-md-1 .cont-home-icon}
+[{{< fa arrow-up-right-dots >}}]{.homeicon}
 :::
 :::
