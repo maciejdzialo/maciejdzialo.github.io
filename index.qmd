@@ -6,7 +6,7 @@ image: assets/img/md_headshot.jpg
 
 about:
   template: solana
-  image-width: 21em
+  image-width: 17em
   image-shape: round
   id: hero-heading
   links:
@@ -47,3 +47,160 @@ Thanks for popping into my little corner of the internet!<br><br>I am a research
 [Who am I?]{#home-heading}
 <br><br>
 
+<!-- #0 -->
+::: {.grid}
+::: {.g-col-12 .g-col-md-1 .cont-home-icon}
+[{{< fa terminal >}}]{.homeicon}
+:::
+::: {.g-col-12 .g-col-md-11 .cont-light}
+### At glance
+```{=html}
+
+
+<div class="accordion" id="accordion-glance">
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataAnalysis" aria-expanded="true" aria-controls="collapseDataAnalysis">
+      Data Analysis Tools
+    </button>
+  </h2>
+  <div id="collapseDataAnalysis" class="accordion-collapse collapse show" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-primary">R</span>
+      <span class="badge bg-primary">R/Tidyverse</span>
+      <span class="badge bg-primary">Quarto</span>
+      <span class="badge bg-primary">SQL</span>
+      <span class="badge bg-primary">Excel</span>
+      <span class="badge bg-primary">Google Sheets</span>
+      <span class="badge bg-primary">SAS</span>
+    </div>
+  </div>
+</div>
+
+  <div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTechnical" aria-expanded="true" aria-controls="collapseTechnical">
+      Technical Skills
+    </button>
+  </h2>
+  <div id="collapseTechnical" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-secondary">Data wrangling</span>
+      <span class="badge bg-secondary">Data visualization</span>
+      <span class="badge bg-secondary">Statistical analysis</span>
+      <span class="badge bg-secondary">Research methodologies</span>
+      <span class="badge bg-secondary">Experimental design</span>
+      <span class="badge bg-secondary">Linear models</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSoftSkills" aria-expanded="true" aria-controls="collapseSoftSkills">
+      Soft Skills
+    </button>
+  </h2>
+  <div id="collapseSoftSkills" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-warning text-dark">Problem solving</span>
+      <span class="badge bg-warning text-dark">Analytical thinking</span>
+      <span class="badge bg-warning text-dark">Project coordination</span>
+      <span class="badge bg-warning text-dark">Time management</span>
+      <span class="badge bg-warning text-dark">Writing skills</span>
+      <span class="badge bg-warning text-dark">Reporting skills</span>
+      <span class="badge bg-warning text-dark">Presentation skills</span>
+      <span class="badge bg-warning text-dark">Teaching</span>
+      <span class="badge bg-warning text-dark">Effective communication skills</span>
+      <span class="badge bg-warning text-dark">Customer service</span>
+      <span class="badge bg-warning text-dark">Teamwork</span>
+      <span class="badge bg-warning text-dark">Fast learning</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSoftware" aria-expanded="true" aria-controls="collapseSoftware">
+      Office & Other Tools
+    </button>
+  </h2>
+  <div id="collapseSoftware" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-success">Google Workspace</span>
+      <span class="badge bg-success">MS Office</span>
+      <span class="badge bg-success">Jira</span>
+      <span class="badge bg-success">Confluence</span>
+      <span class="badge bg-success">Salesforce Marketing Cloud</span>
+      <span class="badge bg-success">Adobe Creative Suite</span>
+      <span class="badge bg-success">Notion</span>
+      <span class="badge bg-success">UNIX/Linux</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLanguages" aria-expanded="true" aria-controls="collapseLanguages">
+      Language
+    </button>
+  </h2>
+  <div id="collapseLanguages" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-info">Polish (native)</span>
+      <span class="badge bg-info">English (C1)</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataCamp" aria-expanded="true" aria-controls="collapseDataCamp">
+      Certifications
+    </button>
+  </h2>
+  <div id="collapseDataCamp" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/f89eef43b469e7a0c348fc86541c101589c1ec01" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Associate Data Analyst in SQL (39hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/630874bff6af1e44db9a445b0c1b71b61aed954c" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">SQL Fundamentals (26hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/c476eb490230bc15664112a7fe141c30ca25e883" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">SQL for Business Analysts (20hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/5cc41d69a48c66e8f4b2c77eea784375fbd91841" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Intermediate Google Sheets (12hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/d4632dce5e4a9cc8dd3c0f2b522fc7c9d6b305a5" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Google Sheets Fundamentals (17hrs)</span></a>
+      <br><span>(Click to see the details)</span>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<style>
+  .badge .badge-icon {
+    width: auto;
+    height: 1em; /* Adjust icon height relative to text */
+    margin-right: .5rem;
+    margin-bottom: .1rem;
+  }
+</style>
+
+
+
+```
+:::
+:::
+
+<!-- #1 -->
+::: {.grid}
+::: {.g-col-12 .g-col-md-7 .cont-light}
+### I analyse data
+My hands-on experience in data wrangling and analysis (both exploratory and statistical) was key in completing my PhD. I’m skilled in R, SQL, and spreadsheets. I enjoy tinkering with visualizations and always aim to tell a data-driven story.
+:::
+::: {.g-col-12 .g-col-md-4 .cont-light-img}
+### [My projects {{< fa link >}}](projects.qmd)
+![](https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+:::
+::: {.g-col-12 .g-col-md-1 .cont-home-icon}
+[{{< fa magnifying-glass-chart >}}]{.homeicon}
+:::
+:::

@@ -58,3 +58,278 @@ $badge-border-radius:               .5rem ;
 
 /*-- scss:rules --*/
 
+#home-heading {
+  margin-top: 0;
+  padding-left: 1rem;
+  font-size: $h1-font-size;
+  font-weight: 700;
+  font-family: $headings-font-family;
+  text-align: right;
+}
+
+
+.badge {
+  margin-bottom: .3rem;
+  white-space: normal;
+}
+
+
+// add horizontal line at the top
+#quarto-header {
+  border-top: 5px solid $body-color;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+
+// center navbar & remove menu l/r padding
+.navbar > .container-xxl,
+.navbar > .container-xl,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container,
+.navbar > .container-fluid {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+// links
+a {
+  color: $body-color;
+  text-decoration-thickness: 1px;
+}
+
+a:hover {
+  color: $primary;
+  text-decoration-color: $primary;
+}
+
+.toc-actions a {
+  text-decoration: none !important;
+  border-bottom: 0;
+}
+
+.toc-actions a:hover {
+  color: $primary;
+}
+
+
+// navbar
+.navbar-title {
+  font-size: $font-size-base * 2;
+  margin: 10;
+}
+
+.navbar .dropdown-header {
+  text-transform: none;
+}
+
+// animated underline on hover, when navbar shows as row
+@media screen and (min-width: 992px) {
+  a.nav-link {
+    position: relative;
+  }
+
+  a.nav-link:hover {
+    color: $primary;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+
+  .navbar .navbar-nav .nav-item::after {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    background-color: $primary;
+    width: 100%;
+    content: "";
+    height: 3px;
+    transition: 0.4s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 100% 50%;
+  }
+
+  .navbar .navbar-nav .nav-item:hover::after {
+    transform: scale3d(1,1,1);
+    transform-origin: 0 50%;
+  }
+
+}
+
+
+// home
+
+div.quarto-about-solana .about-entity .entity-contents{
+  text-align: left;
+  padding: 0 0 0 1rem;
+}
+
+div.quarto-about-solana .about-entity .about-links {
+  justify-content: flex-start !important;
+  column-gap: .7rem !important;
+}
+
+div.quarto-about-solana .about-entity .about-contents{
+  padding: 0 2rem 0 0 !important;
+}
+
+div.quarto-about-solana .about-entity .about-image{
+  margin-top: 1em;
+}
+
+
+/* mobile query up for screens up to ~992px wide */
+@media screen and (max-width: 991.98px) {
+  div.quarto-about-solana .about-entity .entity-contents{
+    order: 1 !important;
+    text-align: center;
+  }
+
+div.quarto-about-solana .about-entity .about-links {
+    justify-content: center !important;
+    flex-direction: row;
+  }
+
+div.quarto-about-solana .about-entity .about-contents{
+    padding: 0 0 0 0 !important;
+  }
+
+div.quarto-about-solana .about-entity .about-image{
+    order: 2;
+  }
+}
+
+// about icon links
+div.quarto-about-solana .about-entity .about-link {
+    font-size: 1.5em;
+    padding: 3px 4px 3px 7px;
+    background-color: transparent;
+    color: $primary;
+    border: 0 !important;
+    border-color: $primary;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+div.quarto-about-solana  .about-entity .about-link:hover{
+    background-color: $primary;
+    color: $body-bg;
+    border-color: $primary;
+    text-decoration: none;
+}
+
+// accordion styling
+
+.accordion-header {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: $body-color;
+}
+
+// home containers
+
+.homeicon {
+  font-size: 250%;
+  color: $body-color;
+}
+
+/* Style for light container */
+.cont-light {
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+}
+
+.cont-light-img {
+  padding: 6rem;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+}
+
+.cont-light-img img {
+  border-radius: 1.5rem !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cont-light-img h3 {
+  position: absolute;
+  top: 0rem;
+  left: 1rem;
+  z-index: 1; /* Ensure text is above the image */
+  background-color: $body-color;
+  color: $body-bg;
+  border-radius: .5rem;
+  padding: .5rem .7rem .5rem .7rem;
+
+}
+
+.cont-light-img a {
+  color: $body-bg;
+  text-decoration: none;
+}
+
+.cont-light-img a:hover {
+  color: $primary;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+.cont-light a,
+.cont-light h1,
+.cont-light h2,
+.cont-light h3,
+.cont-light h4,
+.cont-light h5,
+.cont-light h6 {
+  margin: 0 0 1.5rem 0;
+}
+
+
+/* Style for icon container */
+
+.cont-home-icon {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  position: relative;
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
+  border: .15rem dashed $primary; //lighten($body-color, 30%);
+}
+
+
+@media screen and (max-width: 768px) {
+  .cont-home {
+    order: 1 !important;
+  }
+
+  .cont-light {
+    order: 2 !important;
+  }
+
+  .cont-light-img {
+    order: 3 !important;
+  }
+}
