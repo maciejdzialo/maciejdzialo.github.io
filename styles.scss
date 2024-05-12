@@ -242,6 +242,12 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 // home containers
 
+.grid {
+  //align-items: start;
+  margin-bottom: 3rem;
+  --grid-width: 100%;
+}
+
 .homeicon {
   font-size: 250%;
   color: $body-color;
@@ -293,10 +299,6 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   color: $primary;
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
 .cont-light a,
 .cont-light h1,
 .cont-light h2,
@@ -307,6 +309,11 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   margin: 0 0 1.5rem 0;
 }
 
+.cont-light p,
+.cont-light-img p,
+.cont-home-icon p {
+  margin-bottom: 0;
+}
 
 /* Style for icon container */
 
@@ -315,14 +322,19 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   position: relative;
-  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem !important;
-  border: .15rem dashed $primary; //lighten($body-color, 30%);
+  border-radius: 1.5rem 0 0 1.5rem !important;
+  border-top: .15rem dashed $primary; //lighten($body-color, 30%);
+  border-bottom: .15rem dashed $primary; //lighten($body-color, 30%);
+  border-left: .15rem dashed $primary; //lighten($body-color, 30%);
+  --cont-height: 100%;
 }
 
 
 @media screen and (max-width: 768px) {
-  .cont-home {
+  .cont-home-icon {
     order: 1 !important;
+    padding-top: .5rem;
+    padding-bottom: .3rem;
   }
 
   .cont-light {
@@ -332,4 +344,22 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   .cont-light-img {
     order: 3 !important;
   }
+}
+
+
+.grid-right {
+  position: relative;
+
+}
+
+.grid-right:after {
+  content: '';
+  position: absolute;
+  top: 0rem;
+  left: 100%;
+  right: calc((100vw - var(--grid-width))/-2);
+  height: var(--cont-height);
+  border-top: .15rem dashed $primary; //lighten($body-color, 30%);
+  border-bottom: .15rem dashed $primary; //lighten($body-color, 30%);
+  pointer-events: none;
 }
