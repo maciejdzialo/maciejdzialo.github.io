@@ -48,7 +48,7 @@ Thanks for popping into my little corner of the internet!<br><br>I am a research
 <br><br>
 
 <!-- #0 -->
-::: {.grid .grid-left}
+::: {.grid .grid-left-end}
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa terminal >}}]{.homeicon}
 :::
@@ -255,7 +255,7 @@ Believing in the power of teamwork, I enjoy cross-functional collaboration, valu
 :::
 
 <!-- #6 -->
-::: {.grid .grid-left}
+::: {.grid .grid-left-top-bottom}
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa hand-holding >}}]{.homeicon}
 :::
@@ -266,7 +266,7 @@ My publishing journey was all about supporting researchers in amplifying their w
 :::
 
 <!-- #7 -->
-::: {.grid .grid-right}
+::: {.grid .grid-right-end}
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I’m upskilling.
 Currently pursuing analytics-related certifications but I also enjoy exploring non-data topics, e.g. related to parenting, productivity, and science. I’m utilizing my ‘second brain’ built in Notion, which aims to optimize my life and work.

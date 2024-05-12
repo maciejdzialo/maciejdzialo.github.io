@@ -164,6 +164,11 @@ a:hover {
 
 // home
 
+div.quarto-about-solana{
+  padding-top: 0 !important;
+  padding-bottom: 2rem !important;
+}
+
 div.quarto-about-solana .about-entity .entity-contents{
   text-align: left;
   padding: 0 0 0 1rem;
@@ -248,7 +253,7 @@ body {
 
 .grid {
   //align-items: start;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   --grid-width: 100%;
 }
 
@@ -359,11 +364,11 @@ body {
   position: absolute;
   top: -1rem;
   left: -1rem;
-  right: calc((100vw - var(--grid-width))/-2);;
+  right: 0.25rem;//calc((100vw - var(--grid-width))/-2);;
   bottom: -1rem;
   border-radius: 1.5rem 0 0 1.5rem !important;
   border-top: .15rem dashed lighten($body-color, 30%);
-  border-bottom: .15rem dashed lighten($body-color, 30%);
+  //border-bottom: .15rem dashed lighten($body-color, 30%);
   border-left: .15rem dashed lighten($body-color, 30%);
   pointer-events: none;
 }
@@ -378,7 +383,83 @@ body {
   position: absolute;
   top: -1rem;
   right: -1rem;
+  left: 0.25rem;//calc((100vw - var(--grid-width))/-2);;
+  bottom: -1rem;
+  border-radius: 0 1.5rem 1.5rem 0 !important;
+  border-top: .15rem dashed lighten($body-color, 30%);
+  //border-bottom: .15rem dashed lighten($body-color, 30%);
+  border-right: .15rem dashed lighten($body-color, 30%);
+  pointer-events: none;
+}
+
+.grid-right-end {
+  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
+
+}
+
+.grid-right-end:after {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  right: calc((100vw - var(--grid-width))/-2);;
+  bottom: -1rem;
+  border-radius: 1.5rem 0 0 1.5rem !important;
+  //border-top: .15rem dashed lighten($body-color, 30%);
+  border-bottom: .15rem dashed lighten($body-color, 30%);
+  border-left: .15rem dashed lighten($body-color, 30%);
+  pointer-events: none;
+}
+
+.grid-left-end {
+  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
+
+}
+
+.grid-left-end:after {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
   left: calc((100vw - var(--grid-width))/-2);;
+  bottom: -1rem;
+  border-radius: 0 1.5rem 1.5rem 0 !important;
+  border-top: .15rem dashed lighten($body-color, 30%);
+  //border-bottom: .15rem dashed lighten($body-color, 30%);
+  border-right: .15rem dashed lighten($body-color, 30%);
+  pointer-events: none;
+}
+
+.grid-right-top-bottom {
+  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
+
+}
+
+.grid-right-top-bottom:after {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+  right: 0.25rem;//calc((100vw - var(--grid-width))/-2);;
+  bottom: -1rem;
+  border-radius: 1.5rem 0 0 1.5rem !important;
+  border-top: .15rem dashed lighten($body-color, 30%);
+  border-bottom: .15rem dashed lighten($body-color, 30%);
+  border-left: .15rem dashed lighten($body-color, 30%);
+  pointer-events: none;
+}
+
+.grid-left-top-bottom {
+  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
+
+}
+
+.grid-left-top-bottom:after {
+  content: '';
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  left: 0.25rem;//calc((100vw - var(--grid-width))/-2);;
   bottom: -1rem;
   border-radius: 0 1.5rem 1.5rem 0 !important;
   border-top: .15rem dashed lighten($body-color, 30%);
