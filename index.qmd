@@ -1,7 +1,17 @@
 ---
-title: "Maciej Działo"
+title: "Hi, I'm Maciej"
 pagetitle: "Maciej Działo"
-subtitle: "Data explorer experienced in life sciences"
+subtitle: |
+  <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script> 
+  <p class="multipleStrings"></p>
+  <script>
+  new TypeIt(".multipleStrings", {
+    strings: ["I'm a data analyst.", "I enjoy finding stories in data."],
+    breakLines: false,
+    loop: true,
+    speed: 80
+  }).go();
+  </script>
 image: assets/img/md_headshot.jpg
 
 about:
@@ -33,9 +43,14 @@ format:
 
 ---
 
+```{=html}
+
+
+```
+
 ::: {#hero-heading}
 
-Thanks for popping into my little corner of the internet!<br><br>I am a researcher capable of leveraging data analysis for actionable **insights**. I collaborated on international **research** projects for eight years and two years in open-access scholarly publishing. My career vision is **to empower** teams and together make informed, data-driven decisions.
+Thanks for popping into my little corner of the internet!<br><br>I'm a data analyst with a scientific background, and I love diving into data to uncover valuable **insights**. For over eight years, I've been fortunate to collaborate on international **research projects**, and I've dedicated two years to the world of open-access scholarly publishing. My career goal is simple: I want **to empower** teams to make smarter, data-driven decisions together.
 
 [Learn more about me &rarr;](about.qmd){.about-links}
 [Let's have a chat! &rarr;](contact.qmd){.about-links}
@@ -195,7 +210,7 @@ Thanks for popping into my little corner of the internet!<br><br>I am a research
 ::: {.grid .grid-right}
 ::: {.g-col-12 .g-col-md-7 .cont-light}
 ### I analyse data
-My hands-on experience in data wrangling and analysis (both exploratory and statistical) was key in completing my PhD. I’m skilled in R, SQL, and spreadsheets. I enjoy tinkering with visualizations and always aim to tell a data-driven story.
+My doctorate research has equipped me with hands-on experience in both exploratory and statistical analysis. I'm skilled in R, SQL, and spreadsheets, and I enjoy tinkering with visualizations - to craft a narrative driven by data insights.
 :::
 ::: {.g-col-12 .g-col-md-4 .cont-light-img}
 ### [My projects {{< fa link >}}](projects.qmd)
@@ -217,7 +232,7 @@ My hands-on experience in data wrangling and analysis (both exploratory and stat
 :::
 ::: {.g-col-12 .g-col-md-7 .cont-light}
 ### I solve problems 
-Life and professional challenges often have diverse solutions, and I enjoy finding optimal ones. My PhD trained me in rigorous data analysis and research methodologies enabling me to tackle challenges systematically and with creativity.
+Life and professional challenges often have diverse solutions, and I'm striving to find optimal ones. Experienced in research methodologies I approach challenges systematically and with a creative mindset.
 :::
 :::
 
@@ -225,7 +240,7 @@ Life and professional challenges often have diverse solutions, and I enjoy findi
 ::: {.grid .grid-right}
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I break out (of my expertise bubble)
-My scholarly work provided empirical evidence for a long-standing postulate. Through interdisciplinary collaboration, my work led to the development of a cost-effective measurement system prototype.
+Having experience in interdisciplinary projects, I do not fear venturing beyond my expertise comfort zone. Through collaboration, I've developed a cost-effective measurement system prototype, also providing empirical evidence for a long-standing hypothesis.
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa up-right-from-square >}}]{.homeicon}
@@ -239,7 +254,7 @@ My scholarly work provided empirical evidence for a long-standing postulate. Thr
 :::
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I'm inspired by innovative ideas 
-While in publishing, I identified a gap and opportunity for an innovative product within my company. I dedicated my off-work time to designing a visual prototype. After conceptualizing product vision, the prototype received positive feedback from my colleagues in a dedicated product team.
+Working as a publishing specialist, I recognized an opportunity for innovation within my company. Outside of my work, I conceptualized a vision and developed a visual prototype to address this gap. Presenting it to my colleagues on the product team, the prototype garnered positive feedback and progressed into further development.
 :::
 :::
 
@@ -247,7 +262,7 @@ While in publishing, I identified a gap and opportunity for an innovative produc
 ::: {.grid .grid-right}
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I’m collaborative.
-Believing in the power of teamwork, I enjoy cross-functional collaboration, valuing insights from every team member - no important decisions should be made in a silo.
+Believing in the power of teamwork, I thrive on cross-functional collaboration, appreciating insights from every team member. I firmly believe that important decisions should never be made in a silo.
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa people-group >}}]{.homeicon}
@@ -261,7 +276,7 @@ Believing in the power of teamwork, I enjoy cross-functional collaboration, valu
 :::
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I extend support
-My publishing journey was all about supporting researchers in amplifying their work - to disseminate knowledge and break publishing paywalls at scale. I strategically developed content for three scholarly journals and fostered numerous relationships with researchers worldwide, both early-career and senior.
+Throughout my publishing journey, my focus has been on empowering researchers to amplify their work, disseminate knowledge, and break down publishing barriers at a scale. I strategically developed content for three scholarly journals and built numerous relationships with researchers worldwide, spanning from early-career to senior professionals.
 :::
 :::
 
@@ -269,7 +284,7 @@ My publishing journey was all about supporting researchers in amplifying their w
 ::: {.grid .grid-right-end}
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I’m upskilling.
-Currently pursuing analytics-related certifications but I also enjoy exploring non-data topics, e.g. related to parenting, productivity, and science. I’m utilizing my ‘second brain’ built in Notion, which aims to optimize my life and work.
+Practice serves as my primary avenue for learning, a pathway to mastery. In my spare time, I dive into analytical projects, not only to broaden my skill set but also to refine my craft. I'm passionate about exploring a range of topics beyond data analysis, including parenting, productivity, and science.
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa arrow-up-right-dots >}}]{.homeicon}
