@@ -40,15 +40,14 @@ format:
   html: 
     page-layout: full
     lightbox: false
-
 ---
 
 ::: {#hero-heading}
 
 Thanks for popping into my little corner of the internet!<br><br>I'm a data analyst with a scientific background, and I love diving into data to uncover valuable **insights**. For over eight years, I collaborated on international **research** projects, and I've dedicated two years to the world of open-access scholarly publishing. My career goal is simple: **to empower** teams and make smarter, data-driven decisions together.
 
-[Learn more about me &rarr;](about.qmd){.about-links}
-[Let's have a chat! &rarr;](contact.qmd){.about-links}
+[Learn more about me &rarr;](resume/index.qmd){.about-links}
+[Let's have a chat! &rarr;](contact/index.qmd){.about-links}
 
 :::
 <br>
@@ -208,7 +207,7 @@ Thanks for popping into my little corner of the internet!<br><br>I'm a data anal
 My doctorate research has equipped me with hands-on experience in both exploratory and statistical analysis. I'm skilled in R, SQL, and spreadsheets, and I enjoy tinkering with visualizations - to craft a narrative driven by data insights.
 :::
 ::: {.g-col-12 .g-col-md-4 .cont-light-img}
-### [My projects {{< fa link >}}](projects.qmd)
+### [My projects {{< fa link >}}](posts/index.qmd)
 ![](https://images.unsplash.com/photo-1504639725590-34d0984388bd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
