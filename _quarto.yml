@@ -51,6 +51,4 @@ format:
     smooth-scroll: true
     lightbox: true
 
-execute:
-  freeze: auto
 
