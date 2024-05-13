@@ -1,12 +1,12 @@
 ---
-title: "Hi, I'm Maciej"
+title: "hi, I'm Maciej"
 pagetitle: "Maciej Działo"
 subtitle: |
   <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script> 
   <p class="multipleStrings"></p>
   <script>
   new TypeIt(".multipleStrings", {
-    strings: ["I'm a data analyst.", "I enjoy finding stories in data."],
+    strings: ["I'm a data explorer.", "I enjoy finding stories in data."],
     breakLines: false,
     loop: true,
     speed: 80
@@ -43,11 +43,6 @@ format:
 
 ---
 
-```{=html}
-
-
-```
-
 ::: {#hero-heading}
 
 Thanks for popping into my little corner of the internet!<br><br>I'm a data analyst with a scientific background, and I love diving into data to uncover valuable **insights**. For over eight years, I've been fortunate to collaborate on international **research** projects, and I've dedicated two years to the world of open-access scholarly publishing. My career goal is simple: **to empower** teams and make smarter, data-driven decisions together.
@@ -59,7 +54,7 @@ Thanks for popping into my little corner of the internet!<br><br>I'm a data anal
 <br>
 
 
-[Who am I?]{#home-heading}
+[who am I?]{#home-heading}
 <br><br>
 
 <!-- #0 -->
@@ -68,7 +63,7 @@ Thanks for popping into my little corner of the internet!<br><br>I'm a data anal
 [{{< fa terminal >}}]{.homeicon}
 :::
 ::: {.g-col-12 .g-col-md-11 .cont-light}
-### At glance
+### at glance
 ```{=html}
 
 
