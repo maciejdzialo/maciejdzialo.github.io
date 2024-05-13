@@ -71,7 +71,6 @@ $badge-border-radius:               .5rem ;
   text-align: right;
 }
 
-
 .badge {
   margin-bottom: .3rem;
   white-space: normal;
@@ -410,6 +409,46 @@ body {
 .grid-right-end {
   position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
 
+}
+
+.grid-left-end:before {
+  content: url('assets/img/home_hist.png');
+  position: absolute;
+  top: -7.7rem; /* Position at the top of the container */
+  left: 0; /* Align with the right border of the container */
+  bottom: 0;
+  right: 6rem;
+  transform: scale(0.2);
+  transform-origin: top right;
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+@media screen and (max-width: 992px) {
+  .grid-left-end:before {
+    content: url('assets/img/home_hist.png');
+    position: absolute;
+    top: -7.7rem; /* Position at the top of the container */
+    left: 0; /* Align with the right border of the container */
+    bottom: 0;
+    right: 8.5rem;
+    transform: scale(0.2);
+    transform-origin: top right;
+    z-index: 1; /* Ensure it's above other elements */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-left-end:before {
+  content: url('assets/img/home_hist.png');
+  position: absolute;
+  top: -3.9rem; /* Position at the top of the container */
+  left: 0; /* Align with the right border of the container */
+  bottom: 0;
+  right: 5.6rem;
+  transform: scale(0.09);
+  transform-origin: top right;
+  z-index: 1; /* Ensure it's above other elements */
+}
 }
 
 .grid-right-end:after {
