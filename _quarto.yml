@@ -3,14 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "maciej.działo"
+  title: "maciej działo"
   navbar:
     right:
       - href: index.qmd
         text: intro
-      - href: about.qmd
-        text: about
-      - posts.qmd
+      - href: resume.qmd
+        text: resume
+      - href: posts.qmd
+        text: insights & data
       - icon: envelope-fill
         href: contact.qmd
   page-footer:

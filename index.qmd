@@ -45,7 +45,7 @@ format:
 
 ::: {#hero-heading}
 
-Thanks for popping into my little corner of the internet!<br><br>I'm a data analyst with a scientific background, and I love diving into data to uncover valuable **insights**. For over eight years, I've been fortunate to collaborate on international **research** projects, and I've dedicated two years to the world of open-access scholarly publishing. My career goal is simple: **to empower** teams and make smarter, data-driven decisions together.
+Thanks for popping into my little corner of the internet!<br><br>I'm a data analyst with a scientific background, and I love diving into data to uncover valuable **insights**. For over eight years, I collaborated on international **research** projects, and I've dedicated two years to the world of open-access scholarly publishing. My career goal is simple: **to empower** teams and make smarter, data-driven decisions together.
 
 [Learn more about me &rarr;](about.qmd){.about-links}
 [Let's have a chat! &rarr;](contact.qmd){.about-links}
@@ -278,8 +278,8 @@ Throughout my publishing journey, my focus has been on empowering researchers to
 <!-- #7 -->
 ::: {.grid .grid-right-end}
 ::: {.g-col-12 .g-col-md-11 .cont-light}
-### I’m upskilling.
-Practice serves as my primary avenue for learning, a pathway to mastery. In my spare time, I dive into analytical projects, not only to broaden my skill set but also to refine my craft. I'm passionate about exploring a range of topics beyond data analysis, including parenting, productivity, and science.
+### I’m upskilling
+Practice serves as my primary way of learning, a pathway to mastery. In my spare time, I dive into analytical projects, not only to broaden my skill set but also to refine my craft. I'm passionate about exploring a range of topics beyond data analysis, including parenting, productivity, and science.
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa arrow-up-right-dots >}}]{.homeicon}

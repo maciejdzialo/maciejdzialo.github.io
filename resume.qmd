@@ -1,5 +1,5 @@
 ---
-title: "About the author"
+title: "resume"
 image: images/mdli.jpg
 toc: false
 about:
