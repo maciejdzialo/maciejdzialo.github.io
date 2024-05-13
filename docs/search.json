@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About the author",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "resume",
     "section": "",
-    "text": "Education\n\nJagiellonian Interdisciplinary PhD Programme (2021) | Jagiellonian University, Kraków, Poland\nPhD in Biological Sciences (2023) | Jagiellonian University, Kraków, Poland\nMSc in Biology (2015) | Jagiellonian University, Kraków, Poland\nBSc in Biology (2013) | Jagiellonian University, Kraków, Poland\n\n\n\nProfessional Experience\n\nPublishing Specialist, Content - Data & Analytical Science Portfolio | 2023 - present | Frontiers Media, Poland\nJournal Specialist - Data & Analytical Science Portfolio | 2022 - 2023 | Frontiers Media, Poland\nDoctoral Researcher | 2016 - 2023 | Jagiellonian University, Poland\nVisiting Researcher | 2020 - 2021 | Max Planck Institute for Biological Intelligence, Germany\nVisiting Researcher | 2019 | University of Rhode Island, USA\nGraphic designer / DTP | 2015 - 2016 | Drukarnia Transfer, Poland\n\n\n\n\n Back to top"
+    "text": "WORK IN PROGRESS\n\n\nEducation\n\nJagiellonian Interdisciplinary PhD Programme (2021) | Jagiellonian University, Kraków, Poland\nPhD in Biological Sciences (2023) | Jagiellonian University, Kraków, Poland\nMSc in Biology (2015) | Jagiellonian University, Kraków, Poland\nBSc in Biology (2013) | Jagiellonian University, Kraków, Poland\n\n\n\nProfessional Experience\n\nPublishing Specialist, Content - Data & Analytical Science Portfolio | 2023 - present | Frontiers Media, Poland\nJournal Specialist - Data & Analytical Science Portfolio | 2022 - 2023 | Frontiers Media, Poland\nDoctoral Researcher | 2016 - 2023 | Jagiellonian University, Poland\nVisiting Researcher | 2020 - 2021 | Max Planck Institute for Biological Intelligence, Germany\nVisiting Researcher | 2019 | University of Rhode Island, USA\nGraphic designer / DTP | 2015 - 2016 | Drukarnia Transfer, Poland\n\n\n\n\n Back to top"
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "projects & posts",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 5, 2024\n\n\nHello Quarto!\n\n\n \n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "WORK IN PROGRESS\n\n\n\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 5, 2024\n\n\nHello Quarto!\n\n\n \n\n\n\n\n\nNo matching items\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -26,33 +26,5 @@
     "title": "Hello Quarto!",
     "section": "",
     "text": "First quarto blog post\ntest test test\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Maciej Działo, PhD",
-    "section": "About me",
-    "text": "About me\n\n\nBiomedical engineer turned informaticist, curious about all intersections of data and society.\nI enjoy using R to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I’m certified as an RStudio Tidyverse Instructor and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my blog and presentations in talks.\n\n\nTidyverse Instructor Certification ∙ RStudio, PBC ∙ 2020\n\n\n\n\nPrior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I’m particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.\n\n\nCertificate in Biomedical Informatics ∙ University of Pennsylvania ∙ 2019\n\n\nPh.D. in Biomedical Engineering ∙ Purdue University ∙ 2018\n\n\nB.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012\n\n\n\n\n\n\n\n\n\n\nUnmet expectations of AI\nMany people continue to have high expectations of what data and AI can bring. Yet, the majority of organisations struggle to capture real value from data and AI-driven innovations. Studies have shown that up to 95% of such innovations never make it past the proof-of-concept stage into full-scale operations.\n\n\nGaining strategic autonomy\nThe key towards creating sustainable change with digital technologies lies in increasing your own data literacy and understanding of AI, and that of your organisation. AI is not sci-fi, we need to demystify digital technologies. That way, professionals and domain experts can obtain strategic autonomy to reason, think, imagine and create applications with AI themselves. Technology can only be of value when it is put within the appropriate business, societal or human context.\nWe offer the following services to help you master data and AI yourself."
-  },
-  {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
-    "title": "Maciej Działo, PhD",
-    "section": "About",
-    "text": "About\n\n\nBiomedical engineer turned informaticist, curious about all intersections of data and society.\nI enjoy using R to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I’m certified as an RStudio Tidyverse Instructor and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my blog and presentations in talks.\n\n\nTidyverse Instructor Certification ∙ RStudio, PBC ∙ 2020\n\n\n\n\nPrior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I’m particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.\n\n\nCertificate in Biomedical Informatics ∙ University of Pennsylvania ∙ 2019\n\n\nPh.D. in Biomedical Engineering ∙ Purdue University ∙ 2018\n\n\nB.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012"
-  },
-  {
-    "objectID": "index.html#some-random-text",
-    "href": "index.html#some-random-text",
-    "title": "Maciej Działo",
-    "section": "Some random text",
-    "text": "Some random text\nBiomedical engineer turned informaticist, curious about all intersections of data and society."
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "resume",
-    "section": "",
-    "text": "Education\n\nJagiellonian Interdisciplinary PhD Programme (2021) | Jagiellonian University, Kraków, Poland\nPhD in Biological Sciences (2023) | Jagiellonian University, Kraków, Poland\nMSc in Biology (2015) | Jagiellonian University, Kraków, Poland\nBSc in Biology (2013) | Jagiellonian University, Kraków, Poland\n\n\n\nProfessional Experience\n\nPublishing Specialist, Content - Data & Analytical Science Portfolio | 2023 - present | Frontiers Media, Poland\nJournal Specialist - Data & Analytical Science Portfolio | 2022 - 2023 | Frontiers Media, Poland\nDoctoral Researcher | 2016 - 2023 | Jagiellonian University, Poland\nVisiting Researcher | 2020 - 2021 | Max Planck Institute for Biological Intelligence, Germany\nVisiting Researcher | 2019 | University of Rhode Island, USA\nGraphic designer / DTP | 2015 - 2016 | Drukarnia Transfer, Poland\n\n\n\n\n Back to top"
   }
 ]

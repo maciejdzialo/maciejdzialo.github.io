@@ -18,6 +18,8 @@ about:
       icon: envelope-fill
 ---
 
+# WORK IN PROGRESS
+
 # Education
 
 -   Jagiellonian Interdisciplinary PhD Programme (2021) \| Jagiellonian University, Kraków, Poland
