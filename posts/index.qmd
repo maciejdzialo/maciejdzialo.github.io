@@ -1,0 +1,12 @@
+---
+title: "projects & posts"
+listing: 
+  contents: "**/index.qmd"
+  type: table
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+---
+
+# WORK IN PROGRESS

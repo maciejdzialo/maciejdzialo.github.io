@@ -3,17 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "maciej działo"
+  site-url: https://maciejdzialo.github.io/
+  title: "Maciej Działo"
+  description: "Data explorer with scientific background. Skilled in R, SQL & Spreadsheets to uncover data-driven insights"
   navbar:
     right:
-      - href: index.qmd
-        text: intro
-      - href: resume.qmd
-        text: resume
-      - href: posts.qmd
-        text: insights & data
-      - icon: envelope-fill
-        href: contact.qmd
+      - text: intro
+        href: index.qmd
+      - text: resume
+        href: resume/index.qmd
+      - text: insights & data
+        href: posts/index.qmd
+      - icon: envelope-fills
+        href: contact/index.qmd
+
+
   page-footer:
     left: |
      &#169; 2024 Maciej Działo &#8729;
