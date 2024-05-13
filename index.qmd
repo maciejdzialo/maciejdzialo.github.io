@@ -8,7 +8,7 @@ subtitle: |
   new TypeIt(".multipleStrings", {
     strings: ["I'm a data explorer.", "I enjoy finding stories in data."],
     breakLines: false,
-    loop: true,
+    loop: false,
     speed: 80
   }).go();
   </script>
