@@ -226,7 +226,7 @@ My doctorate research has equipped me with hands-on experience in both explorato
 :::
 ::: {.g-col-12 .g-col-md-7 .cont-light}
 ### I solve problems 
-Life and professional challenges often have diverse solutions, and I'm striving to find optimal ones. Experienced in research methodologies I approach challenges systematically and with a creative mindset.
+Life and professional challenges often have diverse solutions, and I'm striving to find optimal ones. Experienced in research methodologies I know how to approach challenges systematically and with a creative mindset.
 :::
 :::
 
@@ -234,7 +234,7 @@ Life and professional challenges often have diverse solutions, and I'm striving 
 ::: {.grid .grid-right}
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I break out (of my expertise bubble)
-Having experience in interdisciplinary projects, I do not fear venturing beyond my expertise comfort zone. Through collaboration, I've developed a cost-effective measurement system prototype, also providing empirical evidence for a long-standing hypothesis.
+Having experience in interdisciplinary projects, I like to push myself out of my comfort zone. This helped me to develop a cost-effective measurement system prototype and also provide empirical evidence for a long-standing hypothesis in my research field.
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa up-right-from-square >}}]{.homeicon}
@@ -248,7 +248,7 @@ Having experience in interdisciplinary projects, I do not fear venturing beyond 
 :::
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I'm inspired by innovative ideas 
-Working as a publishing specialist, I recognized an opportunity for innovation within my company. Outside of my work, I conceptualized a vision and developed a visual prototype to address this gap. Presenting it to my colleagues on the product team, the prototype garnered positive feedback and progressed into further development.
+Working as a publishing specialist, I recognized an opportunity for innovation within my company. Outside of my work, I conceptualized a vision and developed a visual prototype to address this gap. After presentation to my colleagues, the prototype garnered positive feedback and progressed into further development by the product team.
 :::
 :::
 
@@ -256,7 +256,7 @@ Working as a publishing specialist, I recognized an opportunity for innovation w
 ::: {.grid .grid-right}
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I’m collaborative.
-Believing in the power of teamwork, I thrive on cross-functional collaboration, appreciating insights from every team member. I firmly believe that important decisions should never be made in a silo.
+Believing in the power of teamwork, I thrive on cross-functional collaboration, appreciating feedback from every team member. I simply believe that important decisions should never be made in a silo.
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa people-group >}}]{.homeicon}
@@ -278,7 +278,7 @@ Throughout my publishing journey, my focus has been on empowering researchers to
 ::: {.grid .grid-right-end}
 ::: {.g-col-12 .g-col-md-11 .cont-light}
 ### I’m upskilling
-Practice serves as my primary way of learning, a pathway to mastery. In my spare time, I dive into analytical projects, not only to broaden my skill set but also to refine my craft. I'm passionate about exploring a range of topics beyond data analysis, including parenting, productivity, and science.
+Practice serves as my primary way of learning - a pathway to mastery. In my spare time, I dive into analytical projects, not only to broaden my skill set but also to refine my craft. I'm also enthusiastic about exploring a range of topics beyond data analysis, including parenting, productivity, and science.
 :::
 ::: {.g-col-12 .g-col-md-1 .cont-home-icon}
 [{{< fa arrow-up-right-dots >}}]{.homeicon}
