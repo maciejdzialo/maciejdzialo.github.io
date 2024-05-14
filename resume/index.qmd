@@ -2,71 +2,190 @@
 title: "resume"
 image: assets/img/md_headshot.jpg
 toc: true
+toc_float: true
 
 ---
 
 ### Education
-<br>
 
+<!-- grid start-->
+::: {.grid}
+::: {.g-col-1  .grid-left-top-bottom-end}
+:::
+::: {.g-col-11 .cont-light}
+<!-- grid start-->
+
+<!-- first start-->
 ::: {.d-flex .justify-content-between}
 ::: {}
-**New York University**  
-PhD in Political Methodology  
-Advisors: Cyrus Samii, Neal Beck, Josh Tucker
+**Jagiellonian University, Kraków, Poland**
+<br>Jagiellonian Interdisciplinary PhD Programme<br>
+```{=html}
+<div class="collapse" id="book-inter">
+  <div class="card card-body">
+```
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+```{=html}
+  </div>
+</div>
+```
 :::
 ::: {.text-end}
-New York, NY  
-Granted May 2016
+**2021**
+<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#book-inter" role="button" aria-expanded="false" aria-controls="book-inter">{{< fa star size=small >}}</a>
 :::
 :::
-- Dissertation: *Essays on Causal Inference and Machine Learning with Application to Nonprofits*
-- Winner of 2015 Williams Award for Best Dissertation Proposal in Political Methodology from the Society of Political Methodology
+<!-- first end-->
 
+<!-- second start-->
 ::: {.d-flex .justify-content-between}
 ::: {}
-**UNC Chapel Hill**  
-B.A. in International and Area Studies with distinction
+**Jagiellonian University, Kraków, Poland**
+<br>Doctor of Philosophy (PhD), Life sciences<br>
+```{=html}
+<div class="collapse" id="book-phd">
+  <div class="card card-body">
+```
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+```{=html}
+  </div>
+</div>
+```
 :::
 ::: {.text-end}
-Chapel Hill, NC  
-Granted June 2010
+**2023**
+<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#book-phd" role="button" aria-expanded="false" aria-controls="book-phd">{{< fa book size=normal >}}</a>
 :::
 :::
+<!-- second end-->
 
 
-
-::: {.grid .grid-right-end}
-
-
-
-::: {.g-col-12}
-
+<!-- third start-->
 ::: {.d-flex .justify-content-between}
 ::: {}
-**New York University**  
-PhD in Political Methodology  
-Advisors: Cyrus Samii, Neal Beck, Josh Tucker
+**Jagiellonian University, Kraków, Poland**
+<br>Master of Science (MSc), Biology<br>
+```{=html}
+<div class="collapse" id="book-msc">
+  <div class="card card-body">
+```
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+```{=html}
+  </div>
+</div>
+```
 :::
 ::: {.text-end}
-New York, NY  
-Granted May 2016
+**2015**
+<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#book-msc" role="button" aria-expanded="false" aria-controls="book-msc">{{< fa book size=normal >}}</a>
 :::
 :::
-- Dissertation: *Essays on Causal Inference and Machine Learning with Application to Nonprofits*
-- Winner of 2015 Williams Award for Best Dissertation Proposal in Political Methodology from the Society of Political Methodology
+<!-- third end-->
 
+<!-- fourth start-->
 ::: {.d-flex .justify-content-between}
 ::: {}
-**UNC Chapel Hill**  
-B.A. in International and Area Studies with distinction
+**Jagiellonian University, Kraków, Poland**
+<br>Bachelor of Science (BSc), Biology<br>
+```{=html}
+<div class="collapse" id="book-bsc">
+  <div class="card card-body">
+```
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+```{=html}
+  </div>
+</div>
+```
 :::
 ::: {.text-end}
-Chapel Hill, NC  
-Granted June 2010
+**2013**
+<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#book-bsc" role="button" aria-expanded="false" aria-controls="book-bsc">{{< fa book size=normal >}}</a>
 :::
 :::
+<!-- fourth end-->
 
 
+<!-- grid end-->
+:::
+::: 
+<!-- grid end-->
+
+
+### Professional experience
+
+<!-- grid start-->
+::: {.grid}
+::: {.g-col-1  .grid-left-top-bottom-end}
+:::
+::: {.g-col-11 .cont-light}
+<!-- grid start-->
+
+<!-- first start-->
+::: {.d-flex .justify-content-between}
+::: {}
+**Frontiers, Remote, Poland**
+<br>Publishing Specialist, Content<br>
+```{=html}
+<div class="collapse" id="star-frontiers1">
+  <div class="card card-body">
+```
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+```{=html}
+  </div>
+</div>
+```
+:::
+::: {.text-end}
+**06/2024<br>09/2022**
+<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#star-frontiers1" role="button" aria-expanded="false" aria-controls="star-frontiers1">{{< fa star size=small >}}</a>
+:::
+:::
+<!-- first end-->
+
+<!-- grid end-->
+:::
+::: 
+<!-- grid end-->
 
 
 # Education

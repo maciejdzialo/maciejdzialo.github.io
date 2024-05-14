@@ -14,8 +14,9 @@ website:
         href: resume/index.qmd
       - text: insights & data
         href: posts/index.qmd
-      - icon: envelope-fills
+      - icon: envelope-fill
         href: contact/index.qmd
+        text: " "
 
 
   page-footer:
