@@ -262,7 +262,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 // home containers
 
 body {
-  overflow-x: hidden;
+  //overflow-x: hidden;
 }
 
 .grid {
@@ -349,6 +349,15 @@ body {
   background-color: $body-color;
 }
 
+.cont-home-icon a,
+.cont-home-icon h1,
+.cont-home-icon h2,
+.cont-home-icon h3,
+.cont-home-icon h4,
+.cont-home-icon h5,
+.cont-home-icon h6 {
+  color: $body-bg;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -369,8 +378,7 @@ body {
 
 
 .grid-right {
-  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
-
+  position: relative;
 }
 
 .grid-right:after {
@@ -382,14 +390,12 @@ body {
   bottom: -1rem;
   border-radius: 1rem 0 0 1rem !important;
   border-top: .15rem dashed lighten($body-color, 30%);
-  //border-bottom: .15rem dashed lighten($body-color, 30%);
   border-left: .15rem dashed lighten($body-color, 30%);
   pointer-events: none;
 }
 
 .grid-left {
-  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
-
+  position: relative;
 }
 
 .grid-left:after {
@@ -401,14 +407,12 @@ body {
   bottom: -1rem;
   border-radius: 0 1rem 1rem 0 !important;
   border-top: .15rem dashed lighten($body-color, 30%);
-  //border-bottom: .15rem dashed lighten($body-color, 30%);
   border-right: .15rem dashed lighten($body-color, 30%);
   pointer-events: none;
 }
 
 .grid-right-end {
-  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
-
+  position: relative;
 }
 
 .grid-left-end:before {
@@ -466,8 +470,7 @@ body {
 }
 
 .grid-left-end {
-  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
-
+  position: relative;
 }
 
 .grid-left-end:after {
@@ -485,8 +488,7 @@ body {
 }
 
 .grid-right-top-bottom {
-  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
-
+  position: relative;
 }
 
 .grid-right-top-bottom:after {
@@ -504,8 +506,7 @@ body {
 }
 
 .grid-left-top-bottom {
-  position: relative; /* Ensure the :after pseudo-element is positioned relative to this element */
-
+  position: relative;
 }
 
 .grid-left-top-bottom:after {
