@@ -27,6 +27,8 @@ $h6-font-size:     $font-size-base !default;
 
 // colors
 $primary:                         lighten(#FF6000, 5%) !default;
+$secondary:                       #ffc107 !default;
+//$secondary:                       #6c757d !default; // A muted blue-gray
 
 $body-bg:                         #f7f7f7 !default;
 $body-color:                      #171717 !default;
@@ -573,18 +575,29 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 }
 
 .grid-company {
-  color: $primary;
+  color: $secondary;
+  font-weight: bold;
+}
+
+.res-company {
+  padding-top: .18rem;
+  padding-bottom: .18rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  border-radius: .4rem;
+  background-color: $body-color;
+
 }
 
 .grid-location {
 }
 
 .grid-details {
-  margin-top: 1rem;
+  margin-top: .5rem;
 }
 
 
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 992px) {
   .grid-dates {
   order: 1;
 }
