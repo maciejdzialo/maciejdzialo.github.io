@@ -9,8 +9,8 @@ toc_float: true
 ### Education
 
 <!-- grid start-->
-::: {.grid}
-::: {.g-col-1  .grid-left-top-bottom-end}
+::: {.grid .grid-resume}
+::: {.g-col-1  .dashed-left-top-bottom-end}
 :::
 ::: {.g-col-11 .cont-light}
 <!-- grid start-->
@@ -146,21 +146,70 @@ toc_float: true
 ### Professional experience
 
 <!-- grid start-->
-::: {.grid}
-::: {.g-col-1  .grid-left-top-bottom-end}
+::: {.grid .grid-resume}
+::: {.g-col-1  .dashed-left-top-bottom-end}
 :::
 ::: {.g-col-11 .cont-light}
 <!-- grid start-->
 
-<!-- first start-->
-::: {.d-flex .justify-content-between}
-::: {}
-**Frontiers, Remote, Poland**
-<br>Publishing Specialist, Content<br>
-```{=html}
-<div class="collapse" id="star-frontiers1">
-  <div class="card card-body">
-```
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+::: {.g-col-12 .g-col-md-3 .grid-dates}
+[07/2024 - ongoing]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-md-9 .grid-position}
+[Freelance Data Analyst]{.res-position}
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid end-->
+:::
+::: 
+<!-- grid end-->
+
+
+
+<!-- grid start-->
+::: {.grid .grid-resume}
+::: {.g-col-1  .dashed-left-top-bottom-end}
+:::
+::: {.g-col-11 .cont-light}
+<!-- grid start-->
+
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+::: {.g-col-12 .g-col-md-3 .grid-dates}
+[06/2024 - 09/2022]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-md-9 .grid-position}
+[Publishing Specialist, Content]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-md-3 .grid-location}
+[Remote, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-md-9 .grid-company}
+[Frontiers]{.res-company}
+:::
+
+::: {.g-col-12 .g-col-md-3 .grid-details}
+[details {{< fa arrow-right size=small >}}](#list-front1){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-front1"} 
+:::
+
+::: {.g-col-12 .g-col-md-9 .grid-details}
+:::{.collapse #list-front1}
+:::{.card .card-body}
 **Dissertation:**
 <ul>
   <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
@@ -170,22 +219,20 @@ toc_float: true
   <li>first</li>
   <li>second</li>
 </ul>
-```{=html}
-  </div>
-</div>
-```
-:::
-::: {.text-end}
-**06/2024<br>09/2022**
-<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#star-frontiers1" role="button" aria-expanded="false" aria-controls="star-frontiers1">{{< fa star size=small >}}</a>
 :::
 :::
-<!-- first end-->
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
 
 <!-- grid end-->
 :::
 ::: 
 <!-- grid end-->
+
+
 
 
 # Education

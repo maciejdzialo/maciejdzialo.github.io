@@ -267,7 +267,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 .grid {
   //align-items: start;
-  margin-bottom: 2rem;
+  //margin-bottom: 2rem;
   --grid-width: 100%;
 }
 
@@ -278,10 +278,16 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 /* Style for light container */
 .cont-light {
-  padding: 2rem 2rem 1rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
   background-color: #ffffff;
   position: relative;
   border-radius: 1rem 1rem 1rem 1rem !important;
+}
+
+@media screen and (max-width: 991.98px) {
+  .cont-light {
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+  }
 }
 
 .cont-light-img {
@@ -373,6 +379,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 .grid-right {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .grid-right:after {
@@ -390,6 +397,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 .grid-left {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .grid-left:after {
@@ -407,6 +415,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 .grid-right-end {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .grid-left-end:before {
@@ -465,6 +474,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 .grid-left-end {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .grid-left-end:after {
@@ -483,6 +493,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 .grid-right-top-bottom {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .grid-right-top-bottom:after {
@@ -501,6 +512,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 
 .grid-left-top-bottom {
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .grid-left-top-bottom:after {
@@ -517,11 +529,11 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   pointer-events: none;
 }
 
-.grid-left-top-bottom-end {
+.dashed-left-top-bottom-end {
   position: relative;
 }
 
-.grid-left-top-bottom-end:after {
+.dashed-left-top-bottom-end:after {
   content: '';
   position: absolute;
   top: 0rem;
@@ -535,10 +547,61 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   pointer-events: none;
 }
 
-.text-end {
-  margin-left: 1rem;
+.grid-resume {
+  margin-bottom: 2rem;
+}
+
+.grid-resume-inside {
+  gap: .2rem;
+}
+
+.grid-resume-inside p {
+  margin-bottom: 0 !important;
 }
 
 .card-body {
   margin-bottom: 1rem;
+}
+
+
+.grid-dates {
+  font-weight: bold;
+}
+
+.grid-position {
+  font-weight: bold;
+}
+
+.grid-company {
+  color: $primary;
+}
+
+.grid-location {
+}
+
+.grid-details {
+  margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 991.98px) {
+  .grid-dates {
+  order: 1;
+}
+
+.grid-position {
+  order: 2;
+}
+
+.grid-company {
+  order: 3;
+}
+
+.grid-location {
+  order: 4;
+}
+
+.grid-details {
+  order: 5;
+}
 }
