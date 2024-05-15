@@ -188,7 +188,7 @@ Thanks for popping into my little corner of the internet!<br><br>I'm a data anal
 <style>
   .badge .badge-icon {
     width: auto;
-    height: 1em; /* Adjust icon height relative to text */
+    height: 1em;
     margin-right: .5rem;
     margin-bottom: .1rem;
   }

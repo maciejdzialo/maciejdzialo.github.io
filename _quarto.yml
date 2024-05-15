@@ -26,19 +26,19 @@ website:
     right:
       - icon: github
         href: https://github.com/maciejdzialo
-        target: tab
+        target: _blank
       - icon: linkedin
         href: https://www.linkedin.com/in/maciej-dzialo/
-        target: tab
+        target: _blank
       - icon: mortarboard-fill
         href: https://scholar.google.com/citations?user=aOhRKgEAAAAJ&hl=en
-        target: tab
+        target: _blank
       - text: "{{< ai researchgate >}}"
         href: https://www.researchgate.net/profile/Maciej-Dzialo
-        target: tab
+        target: _blank
       - text: "{{< ai orcid >}}"
         href: https://orcid.org/0000-0002-3632-8572
-        target: tab
+        target: _blank
     border: true
     background: dark
   page-navigation: true

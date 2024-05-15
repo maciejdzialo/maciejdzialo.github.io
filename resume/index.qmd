@@ -2,155 +2,192 @@
 title: "Resume"
 image: assets/img/md_headshot.jpg
 toc: true
-toc_float: true
-
+toc-title: "browse"
+toc-expand: true
 ---
 
-# Education
+# at glance
 
-<!-- grid start-->
+<!-- grid section start-->
 ::: {.grid .grid-resume}
 ::: {.g-col-1  .dashed-left-top-bottom-end}
 :::
-::: {.g-col-11 .cont-light}
-<!-- grid start-->
+::: {.g-col-11}
+<!-- grid section start-->
 
-<!-- first start-->
-::: {.d-flex .justify-content-between}
-::: {}
-**Jagiellonian University, Kraków, Poland**
-<br>Jagiellonian Interdisciplinary PhD Programme<br>
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light}
+<!-- grid white element start-->
+
+
 ```{=html}
-<div class="collapse" id="book-inter">
-  <div class="card card-body">
-```
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
-**Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
-```{=html}
+
+
+<div class="accordion" id="accordion-glance">
+
+<div class="accordion-item">
+  <p class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataAnalysis" aria-expanded="true" aria-controls="collapseDataAnalysis">
+      Data Analysis Tools
+    </button>
+  </p>
+  <div id="collapseDataAnalysis" class="accordion-collapse collapse show" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-primary">R</span>
+      <span class="badge bg-primary">R/Tidyverse</span>
+      <span class="badge bg-primary">Quarto</span>
+      <span class="badge bg-primary">SQL</span>
+      <span class="badge bg-primary">Excel</span>
+      <span class="badge bg-primary">Google Sheets</span>
+      <span class="badge bg-primary">SAS</span>
+    </div>
   </div>
 </div>
-```
-:::
-::: {.text-end}
-**2021**
-<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#book-inter" role="button" aria-expanded="false" aria-controls="book-inter">{{< fa star size=small >}}</a>
-:::
-:::
-<!-- first end-->
 
-<!-- second start-->
-::: {.d-flex .justify-content-between}
-::: {}
-**Jagiellonian University, Kraków, Poland**
-<br>Doctor of Philosophy (PhD), Life sciences<br>
-```{=html}
-<div class="collapse" id="book-phd">
-  <div class="card card-body">
-```
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
-**Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
-```{=html}
+  <div class="accordion-item">
+  <p class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTechnical" aria-expanded="true" aria-controls="collapseTechnical">
+      Technical Skills
+    </button>
+  </p>
+  <div id="collapseTechnical" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-secondary">Data wrangling</span>
+      <span class="badge bg-secondary">Data visualization</span>
+      <span class="badge bg-secondary">Statistical analysis</span>
+      <span class="badge bg-secondary">Research methodologies</span>
+      <span class="badge bg-secondary">Experimental design</span>
+      <span class="badge bg-secondary">Linear models</span>
+    </div>
   </div>
 </div>
-```
-:::
-::: {.text-end}
-**2023**
-<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#book-phd" role="button" aria-expanded="false" aria-controls="book-phd">{{< fa book size=normal >}}</a>
-:::
-:::
-<!-- second end-->
 
-
-<!-- third start-->
-::: {.d-flex .justify-content-between}
-::: {}
-**Jagiellonian University, Kraków, Poland**
-<br>Master of Science (MSc), Biology<br>
-```{=html}
-<div class="collapse" id="book-msc">
-  <div class="card card-body">
-```
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
-**Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
-```{=html}
+<div class="accordion-item">
+  <p class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSoftSkills" aria-expanded="true" aria-controls="collapseSoftSkills">
+      Soft Skills
+    </button>
+  </p>
+  <div id="collapseSoftSkills" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-warning text-dark">Problem solving</span>
+      <span class="badge bg-warning text-dark">Analytical thinking</span>
+      <span class="badge bg-warning text-dark">Project coordination</span>
+      <span class="badge bg-warning text-dark">Time management</span>
+      <span class="badge bg-warning text-dark">Writing skills</span>
+      <span class="badge bg-warning text-dark">Reporting skills</span>
+      <span class="badge bg-warning text-dark">Presentation skills</span>
+      <span class="badge bg-warning text-dark">Teaching</span>
+      <span class="badge bg-warning text-dark">Effective communication skills</span>
+      <span class="badge bg-warning text-dark">Customer service</span>
+      <span class="badge bg-warning text-dark">Teamwork</span>
+      <span class="badge bg-warning text-dark">Fast learning</span>
+    </div>
   </div>
 </div>
-```
-:::
-::: {.text-end}
-**2015**
-<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#book-msc" role="button" aria-expanded="false" aria-controls="book-msc">{{< fa book size=normal >}}</a>
-:::
-:::
-<!-- third end-->
 
-<!-- fourth start-->
-::: {.d-flex .justify-content-between}
-::: {}
-**Jagiellonian University, Kraków, Poland**
-<br>Bachelor of Science (BSc), Biology<br>
-```{=html}
-<div class="collapse" id="book-bsc">
-  <div class="card card-body">
-```
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
-**Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
-```{=html}
+<div class="accordion-item">
+  <p class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSoftware" aria-expanded="true" aria-controls="collapseSoftware">
+      Office & Other Tools
+    </button>
+  </p>
+  <div id="collapseSoftware" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-success">Google Workspace</span>
+      <span class="badge bg-success">MS Office</span>
+      <span class="badge bg-success">Jira</span>
+      <span class="badge bg-success">Confluence</span>
+      <span class="badge bg-success">Salesforce Marketing Cloud</span>
+      <span class="badge bg-success">Adobe Creative Suite</span>
+      <span class="badge bg-success">Notion</span>
+      <span class="badge bg-success">UNIX/Linux</span>
+      <span class="badge bg-success">Github</span>
+    </div>
   </div>
 </div>
+
+<div class="accordion-item">
+  <p class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLanguages" aria-expanded="true" aria-controls="collapseLanguages">
+      Language
+    </button>
+  </p>
+  <div id="collapseLanguages" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <span class="badge bg-info">Polish (native)</span>
+      <span class="badge bg-info">English (C1)</span>
+    </div>
+  </div>
+</div>
+
+<div class="accordion-item">
+  <p class="accordion-header unnumbered">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataCamp" aria-expanded="true" aria-controls="collapseDataCamp">
+      Certifications
+    </button>
+  </p>
+  <div id="collapseDataCamp" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
+    <div class="accordion-body">
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/f89eef43b469e7a0c348fc86541c101589c1ec01" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Associate Data Analyst in SQL (39hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/630874bff6af1e44db9a445b0c1b71b61aed954c" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">SQL Fundamentals (26hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/c476eb490230bc15664112a7fe141c30ca25e883" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">SQL for Business Analysts (20hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/5cc41d69a48c66e8f4b2c77eea784375fbd91841" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Intermediate Google Sheets (12hrs)</span></a>
+      <a href="https://www.datacamp.com/completed/statement-of-accomplishment/track/d4632dce5e4a9cc8dd3c0f2b522fc7c9d6b305a5" target="_blank"><span class="badge bg-dark"><img class="badge-icon" src="https://www.svgrepo.com/show/349332/datacamp.svg" alt="DataCamp Logo" height="1em">Google Sheets Fundamentals (17hrs)</span></a>
+      <br><span>(Click to see the details)</span>
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<style>
+  .badge .badge-icon {
+    width: auto;
+    height: 1em;
+    margin-right: .5rem;
+    margin-bottom: .1rem;
+  }
+</style>
+
+
+
 ```
-:::
-::: {.text-end}
-**2013**
-<br>{{< fa arrow-right size=sm >}} <a data-bs-toggle="collapse" href="#book-bsc" role="button" aria-expanded="false" aria-controls="book-bsc">{{< fa book size=normal >}}</a>
-:::
-:::
-<!-- fourth end-->
 
 
-<!-- grid end-->
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+<!-- grid section end-->
 :::
 ::: 
-<!-- grid end-->
+<!-- grid section end-->
 
 
-# Professional experience
 
-<!-- grid start-->
+
+
+# professional experience
+
+<!-- grid section start-->
 ::: {.grid .grid-resume}
 ::: {.g-col-1  .dashed-left-top-bottom-end}
 :::
-::: {.g-col-11 .cont-light}
-<!-- grid start-->
+::: {.g-col-11}
+<!-- grid section start-->
+
+
+
+
+
+<!-- grid white element start-->
+::: {.grid  .grid-resume}
+::: {.g-col-12 .cont-light}
+<!-- grid white element start-->
 
 <!-- content start-->
 ::: {.grid .grid-resume-inside}
@@ -168,27 +205,31 @@ toc_float: true
 :::
 <!-- content end-->
 
-<!-- grid end-->
+<!-- grid white element end-->
 :::
-::: 
-<!-- grid end-->
-
-
-
-<!-- grid start-->
-::: {.grid .grid-resume}
-::: {.g-col-1  .dashed-left-top-bottom-end}
 :::
-::: {.g-col-11 .cont-light}
-<!-- grid start-->
+<!-- grid white element end-->
 
+
+
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
 
 <!-- content start-->
 ::: {.grid .grid-resume-inside}
 <!-- content start-->
 
+
+::: {.g-col-12 .grid-company}
+[Frontiers]{.badge .bg-dark .res-company}
+:::
+
 ::: {.g-col-12 .g-col-lg-3 .grid-dates}
-[06/2024 - 09/2022]{.res-dates}
+[09/2023 - 06/2024]{.res-dates}
 :::
 
 ::: {.g-col-12 .g-col-lg-9 .grid-position}
@@ -199,15 +240,15 @@ toc_float: true
 [Remote, Poland]{.res-location}
 :::
 
-::: {.g-col-12 .g-col-lg-9 .grid-company}
-[Frontiers]{.res-company}
-:::
-
-::: {.g-col-12 .g-col-lg-3 .grid-details}
-[details {{< fa arrow-right size=small >}}](#list-front1){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-front1"} 
-:::
-
 ::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-front1){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-front1"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-front1}
 :::{.card .card-body}
 **Dissertation:**
@@ -227,34 +268,711 @@ toc_float: true
 :::
 <!-- content end-->
 
-<!-- grid end-->
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[09/2022 - 08/2023]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Journal Specialist]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Remote, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-front2){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-front2"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-front2}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+
+
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[Jagiellonian University]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[10/2016 - 09/2022]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Doctoral Researcher]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kraków, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-jagun){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-jagun"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-jagun}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[Max Planck Institute for Biological Intelligence]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[07/2020 - 12/2021]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Visiting Researcher]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Seewiesen, Germany]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-mpio){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-mpio"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-mpio}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[University of Rhode Island]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[01/2019 - 02/2019]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Visiting Researcher]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kingston, RI, USA]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-uri){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-uri"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-uri}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+
+
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[Drukarnia Transfer]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[10/2015 - 09/2016]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Graphic designer / DTP]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kraków, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-trans){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-trans"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-trans}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+[Older experience {{< fa chevron-down size=small >}}](#list-student){.badge .bg-primary data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-student"}
+
+<!-- collapse start-->
+::: {.collapse #list-student}
+<!-- collapse start-->
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[Grupa Unity]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[05/2014 - 10/2014]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Graphic designer]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kraków, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-unity){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-unity"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-unity}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume .grid-last}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[Jagiellonian University]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[08/2012 - 05/2014]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Laboratory Technician]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kraków, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-lab){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-lab"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-lab}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+<!-- collapse end-->
+:::
+<!-- collapse end-->
+
+<!-- grid section end-->
 :::
 ::: 
-<!-- grid end-->
+<!-- grid section end-->
 
 
 
 
-# Education
 
--   Jagiellonian Interdisciplinary PhD Programme (2021) \| Jagiellonian University, Kraków, Poland
 
--   PhD in Biological Sciences (2023) \| Jagiellonian University, Kraków, Poland
 
--   MSc in Biology (2015) \| Jagiellonian University, Kraków, Poland
 
--   BSc in Biology (2013) \| Jagiellonian University, Kraków, Poland
+# education
 
-# Professional Experience
+<!-- grid section start-->
+::: {.grid .grid-resume}
+::: {.g-col-1  .dashed-left-top-bottom-end}
+:::
+::: {.g-col-11}
+<!-- grid section start-->
 
--   Publishing Specialist, Content - Data & Analytical Science Portfolio \| 2023 - present \| Frontiers Media, Poland
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
 
--   Journal Specialist - Data & Analytical Science Portfolio \| 2022 - 2023 \| Frontiers Media, Poland
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
 
--   Doctoral Researcher \| 2016 - 2023 \| Jagiellonian University, Poland
 
--   Visiting Researcher \| 2020 - 2021 \| Max Planck Institute for Biological Intelligence, Germany
+::: {.g-col-12 .grid-company}
+[Jagiellonian University]{.badge .bg-dark .res-company}
+:::
 
--   Visiting Researcher \| 2019 \| University of Rhode Island, USA
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[2019 - 2021]{.res-dates}
+:::
 
--   Graphic designer / DTP \| 2015 - 2016 \| Drukarnia Transfer, Poland
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Jagiellonian Interdisciplinary PhD Programme]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kraków, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-inter){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-inter"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-inter}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[Jagiellonian University]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[2016 - 2023]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Doctor of Philosophy (PhD), Life sciences]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kraków, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-phd){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-phd"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-phd}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[Jagiellonian University]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[2013 - 2015]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Master of Science (MSc), Biology]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kraków, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-msc){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-msc"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-msc}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+
+
+<!-- grid white element start-->
+::: {.grid}
+::: {.g-col-12 .cont-light .grid-resume .grid-last}
+<!-- grid white element start-->
+
+<!-- content start-->
+::: {.grid .grid-resume-inside}
+<!-- content start-->
+
+
+::: {.g-col-12 .grid-company}
+[Jagiellonian University]{.badge .bg-dark .res-company}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-dates}
+[2010 - 2013]{.res-dates}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-position}
+[Bachelor of Science (BSc), Biology]{.res-position}
+:::
+
+::: {.g-col-12 .g-col-lg-3 .grid-location}
+[Kraków, Poland]{.res-location}
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details}
+[details {{< fa chevron-down size=small >}}](#list-bsc){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-bsc"} 
+:::
+
+::: {.g-col-12 .g-col-lg-3}
+
+:::
+
+::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
+:::{.collapse #list-bsc}
+:::{.card .card-body}
+**Dissertation:**
+<ul>
+  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
+</ul>
+**Achievements:**
+<ul>
+  <li>first</li>
+  <li>second</li>
+</ul>
+:::
+:::
+:::
+
+<!-- content end-->
+:::
+<!-- content end-->
+
+<!-- grid white element end-->
+:::
+:::
+<!-- grid white element end-->
+
+<!-- grid section end-->
+:::
+::: 
+<!-- grid section end-->
+
+
+
+
+
+
+
+
+
+

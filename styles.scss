@@ -26,16 +26,22 @@ $h5-font-size:     $font-size-base * 1.25 !default;
 $h6-font-size:     $font-size-base !default;
 
 // colors
-$primary:                         lighten(#FF6000, 5%) !default;
-$secondary:                       #ffc107 !default;
-//$secondary:                       #6c757d !default; // A muted blue-gray
+$primary:                         lighten(#FFB534, 5%) !default;
+$secondary:                       #B4B4B8 !default;
+$success:                         #A5DD9B !default;
+$info:                            #5BBCFF !default;
+$warning:                         #FF8080 !default;
+$danger:                          #554994 !default;
+$light:                           #B4B4B8 !default;
+$dark:                            #222831 !default;
+$white:                           #ffffff !default;
 
 $body-bg:                         #f7f7f7 !default;
-$body-color:                      #171717 !default;
+$body-color:                      #222831 !default;
 $headings-color:                  $body-color !default;
 $code-block-bg:                   darken($body-bg, 3%) !default;
 $navbar-bg:                       $body-bg !default;
-$navbar-hl:                       $primary !default;
+$navbar-hl:                       $primary;
 $footer-bg:                       $body-bg !default;
 $footer-fg:                       darken($body-bg, 30%) !default;
 
@@ -49,16 +55,16 @@ $code-bg:                         darken($body-bg, 10%) !default;
 $card-border-color:               $body-color !default;
 $form-select-border-color:        $body-color !default;
 
-$badge-font-size:                   1em;
-$badge-font-weight:                 normal;
-$badge-color:                       $body-bg;
-$badge-padding-y:                   .35em;
-$badge-padding-x:                   .65em;
-$badge-border-radius:               .5rem ;
-
+$badge-font-size:                 1em;
+$badge-font-weight:               normal;
+$badge-color:                     $body-bg;
+$badge-padding-y:                 .35em;
+$badge-padding-x:                 .65em;
+$badge-border-radius:             .5rem ;
 
 
 /*-- scss:rules --*/
+
 
 .quarto-title p{
   font-size: $h5-font-size;
@@ -76,8 +82,13 @@ $badge-border-radius:               .5rem ;
 .badge {
   margin-bottom: .3rem;
   white-space: normal;
+  text-align: left;
 }
 
+
+.bg-primary:hover {
+  color: lighten($body-color, 20%);
+}
 
 // add horizontal line at the top
 #quarto-header {
@@ -121,6 +132,29 @@ a:hover {
   color: $primary;
 }
 
+#TOC {
+  background-color: $body-color;
+  color: $body-bg;
+  border-radius: .5rem;
+  padding-top: .5rem;
+  padding-bottom: .1rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+#toc-title {
+  color: $body-bg;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+
+.navbar-nav {
+  background-color: $body-color;
+  color: $body-bg;
+  border-radius: .5rem;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
 
 .navbar .dropdown-header {
   text-transform: none;
@@ -131,20 +165,16 @@ a:hover {
     margin-bottom: 1rem;
   }
 
+.nav-link {
+  color: $body-bg;
+}
 
+.nav-link:hover {
+  color: $primary;
+}
 
 // animated underline on hover, when navbar shows as row
 @media screen and (min-width: 992px) {
-
-
-
-  a.nav-link {
-    position: relative;
-  }
-
-  a.nav-link:hover {
-    color: $primary;
-  }
 
   .navbar .navbar-nav .nav-item {
     position: relative;
@@ -169,7 +199,6 @@ a:hover {
   }
 
 }
-
 
 // home
 
@@ -261,15 +290,14 @@ div.quarto-about-solana  .about-entity .about-link:hover{
     --bs-accordion-active-color: $body-color;
 }
 
+
 // home containers
 
-#quarto-content {
+body {
   overflow-x: hidden;
 }
 
 .grid {
-  //align-items: start;
-  //margin-bottom: 2rem;
   --grid-width: 100%;
 }
 
@@ -281,20 +309,28 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 /* Style for light container */
 .cont-light {
   padding: 2rem 2rem 2rem 2rem;
-  background-color: #ffffff;
+  background-color: $white;
   position: relative;
   border-radius: 1rem 1rem 1rem 1rem !important;
+}
+
+.cont-light-bottom-padding-none {
+  padding-bottom: 0rem;
 }
 
 @media screen and (max-width: 991.98px) {
   .cont-light {
     padding: 1.2rem 1.2rem 1.2rem 1.2rem;
   }
+
+  .cont-light-bottom-padding-none {
+    padding-bottom: 0rem;
+  }
 }
 
 .cont-light-img {
   padding: 6rem;
-  background-color: #ffffff;
+  background-color: $white;
   position: relative;
   border-radius: 1rem 1rem 1rem 1rem !important;
 }
@@ -313,7 +349,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   position: absolute;
   top: 0rem;
   left: 1rem;
-  z-index: 1; /* Ensure text is above the image */
+  z-index: 1;
   background-color: $body-color;
   color: $body-bg;
   border-radius: .5rem;
@@ -389,7 +425,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   position: absolute;
   top: -1rem;
   left: -1rem;
-  right: 0.25rem;//calc((100vw - var(--grid-width))/-2);;
+  right: 0.25rem;
   bottom: -1rem;
   border-radius: 1rem 0 0 1rem !important;
   border-top: .15rem dashed lighten($body-color, 30%);
@@ -407,7 +443,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   position: absolute;
   top: -1rem;
   right: -1rem;
-  left: 0.25rem;//calc((100vw - var(--grid-width))/-2);;
+  left: 0.25rem;
   bottom: -1rem;
   border-radius: 0 1rem 1rem 0 !important;
   border-top: .15rem dashed lighten($body-color, 30%);
@@ -423,26 +459,26 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 .grid-left-end:before {
   content: url('assets/img/home_hist.png');
   position: absolute;
-  top: -7.8rem; /* Position at the top of the container */
-  left: 0; /* Align with the right border of the container */
+  top: -7.8rem;
+  left: 0;
   bottom: 0;
   right: 6rem;
   transform: scale(0.2);
   transform-origin: top right;
-  z-index: 1; /* Ensure it's above other elements */
+  z-index: 1;
 }
 
 @media screen and (max-width: 992px) {
   .grid-left-end:before {
     content: url('assets/img/home_hist.png');
     position: absolute;
-    top: -7.8rem; /* Position at the top of the container */
-    left: 0; /* Align with the right border of the container */
+    top: -7.8rem;
+    left: 0;
     bottom: 0;
     right: 8.5rem;
     transform: scale(0.2);
     transform-origin: top right;
-    z-index: 1; /* Ensure it's above other elements */
+    z-index: 1;
   }
 }
 
@@ -450,13 +486,13 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   .grid-left-end:before {
   content: url('assets/img/home_hist.png');
   position: absolute;
-  top: -4.1rem; /* Position at the top of the container */
-  left: 0; /* Align with the right border of the container */
+  top: -4.1rem;
+  left: 0;
   bottom: 0;
   right: 5.6rem;
   transform: scale(0.09);
   transform-origin: top right;
-  z-index: 1; /* Ensure it's above other elements */
+  z-index: 1;
 }
 }
 
@@ -468,7 +504,6 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   right: calc((100vw - var(--grid-width))/-2);;
   bottom: -1rem;
   border-radius: 1rem 0 0 1rem !important;
-  //border-top: .15rem dashed lighten($body-color, 30%);
   border-bottom: .15rem dashed lighten($body-color, 30%);
   border-left: .15rem dashed lighten($body-color, 30%);
   pointer-events: none;
@@ -488,7 +523,6 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   bottom: -1rem;
   border-radius: 0 1rem 1rem 0 !important;
   border-top: .15rem dashed lighten($body-color, 30%);
-  //border-bottom: .15rem dashed lighten($body-color, 30%);
   border-right: .15rem dashed lighten($body-color, 30%);
   pointer-events: none;
 }
@@ -503,7 +537,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   position: absolute;
   top: -1rem;
   left: -1rem;
-  right: 0.25rem;//calc((100vw - var(--grid-width))/-2);;
+  right: 0.25rem;
   bottom: -1rem;
   border-radius: 1rem 0 0 1rem !important;
   border-top: .15rem dashed lighten($body-color, 30%);
@@ -522,7 +556,7 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   position: absolute;
   top: -1rem;
   right: -1rem;
-  left: 0.25rem;//calc((100vw - var(--grid-width))/-2);;
+  left: 0.25rem;
   bottom: -1rem;
   border-radius: 0 1rem 1rem 0 !important;
   border-top: .15rem dashed lighten($body-color, 30%);
@@ -550,7 +584,12 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 }
 
 .grid-resume {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+}
+
+.grid-last {
+  margin-bottom: 0;
 }
 
 .grid-resume-inside {
@@ -575,38 +614,39 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 }
 
 .grid-company {
-  color: $secondary;
+  color: $primary;
   font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
 }
 
 .res-company {
-  padding-top: .18rem;
-  padding-bottom: .18rem;
-  padding-left: .5rem;
-  padding-right: .5rem;
-  border-radius: .4rem;
-  background-color: $body-color;
-
+  color: $primary;
+  font-weight: bold;
 }
+
+
 
 .grid-location {
 }
 
-.grid-details {
+.grid-details-cont {
   margin-top: .5rem;
+  margin-bottom: 1rem;
 }
 
 
 @media screen and (max-width: 992px) {
-  .grid-dates {
+
+.grid-company {
   order: 1;
 }
 
-.grid-position {
+  .grid-dates {
   order: 2;
 }
 
-.grid-company {
+.grid-position {
   order: 3;
 }
 
@@ -617,4 +657,9 @@ div.quarto-about-solana  .about-entity .about-link:hover{
 .grid-details {
   order: 5;
 }
+
+.grid-details-cont {
+  order: 6;
 }
+}
+
