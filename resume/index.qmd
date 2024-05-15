@@ -1001,7 +1001,7 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: 
 <!-- grid section end-->
 
-
+<!--
 ```{r}
 #| column: screen
 #| echo: false
@@ -1015,3 +1015,4 @@ leaflet() %>%
   addMarkers(lng = 11.2344, lat = 47.9734, popup = "Seewiesen, Germany") %>%
   addMarkers(lng = -71.5225, lat = 41.4901, popup = "Kingston, RI, USA")
 ```
+-->
