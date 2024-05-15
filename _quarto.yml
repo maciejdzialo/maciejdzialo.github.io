@@ -4,7 +4,7 @@ project:
 
 website:
   site-url: https://maciejdzialo.github.io/
-  title: "{{< fa square-poll-horizontal size=small >}} maciej.działo"
+  title: "{{< fa square-poll-vertical size=small >}} Maciej Działo"
   description: "Data explorer with scientific background. Skilled in R, SQL & Spreadsheets to uncover data-driven insights"
   navbar:
     right:

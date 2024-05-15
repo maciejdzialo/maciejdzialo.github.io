@@ -70,8 +70,18 @@ $badge-border-radius:             .5rem ;
   text-transform: uppercase;
   font-family: $headings-font-family;
   font-weight: bold;
-  font-size: 1.13rem;
-  padding-left: .5rem;
+  font-size: 1.05rem;
+  padding-left: .2rem;
+}
+
+.navbar-title i {
+  color: $primary;
+  background-color: $body-color;
+  padding-top: .2rem;
+  padding-bottom: .25rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
+  border-radius: .2rem;
 }
 
 .quarto-title p{
@@ -285,6 +295,28 @@ div.quarto-about-solana  .about-entity .about-link:hover{
     text-decoration: none;
 }
 
+.social-link {
+    font-size: 1.5em;
+    padding: 3px 4px 3px 7px;
+    background-color: transparent;
+    color: $primary;
+    border: 0 !important;
+    border-color: $primary;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.social-link:hover{
+    background-color: $primary;
+    color: $body-bg;
+    border-color: $primary;
+    text-decoration: none;
+}
+
+
+
 // accordion styling
 
 .accordion-header {
@@ -318,7 +350,7 @@ body {
 
 /* Style for light container */
 .cont-light {
-  padding: 2rem 2rem 2rem 2rem;
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
   background-color: $white;
   position: relative;
   border-radius: 1rem 1rem 1rem 1rem !important;
@@ -328,9 +360,13 @@ body {
   padding-bottom: 0rem;
 }
 
+.bottom-padding {
+  padding-bottom: 1rem;
+}
+
 @media screen and (max-width: 991.98px) {
   .cont-light {
-    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+    padding: 1.2rem 1.2rem 0.5rem 1.2rem;
   }
 
   .cont-light-bottom-padding-none {
@@ -624,14 +660,11 @@ body {
 }
 
 .grid-company {
-  color: $primary;
-  font-weight: bold;
-  font-size: 1.1rem;
-  margin-bottom: .5rem;
+  margin-bottom: .2rem;
 }
 
 .res-company {
-  color: $primary;
+  color: $body-color;
   font-weight: bold;
 }
 
@@ -673,3 +706,38 @@ body {
 }
 }
 
+#other-button {
+  text-decoration: none;
+}
+
+#other-button:hover {
+  color: $body-bg;
+}
+
+
+
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-container .location,
+.about-container .social-links {
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5em;
+}
