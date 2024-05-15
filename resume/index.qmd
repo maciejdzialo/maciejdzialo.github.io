@@ -6,7 +6,7 @@ toc-title: "browse"
 toc-expand: true
 ---
 
-# at glance
+# skills & certifications
 
 <!-- grid section start-->
 ::: {.grid .grid-resume}

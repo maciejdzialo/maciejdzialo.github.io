@@ -66,6 +66,14 @@ $badge-border-radius:             .5rem ;
 /*-- scss:rules --*/
 
 
+.navbar-title {
+  text-transform: uppercase;
+  font-family: $headings-font-family;
+  font-weight: bold;
+  font-size: 1.13rem;
+  padding-left: .5rem;
+}
+
 .quarto-title p{
   font-size: $h5-font-size;
 }
@@ -110,6 +118,8 @@ $badge-border-radius:             .5rem ;
   padding-left: 0;
   padding-right: 0;
 }
+
+
 
 
 // links
