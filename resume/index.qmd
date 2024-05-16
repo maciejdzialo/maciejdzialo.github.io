@@ -6,12 +6,13 @@ toc-title: "browse"
 toc-expand: true
 ---
 
+# contact details
+
 :::{.about-container}
-# Maciej Działo
-
-
 
 :::{.location}
+[Maciej Działo]{.h2}
+
 {{< fa location-pin >}} Rzeszów, Poland
 
 {{< fa envelope >}} maciejdzialo [at] gmail.com
@@ -128,15 +129,12 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-front1}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Analyzed publishing market, identifying competitors, gaps, and trends to inform strategic decisions on journal growth.
+* Fostered relationships with Editors-in-Chief and researchers worldwide to develop long-term scientific editorial projects.
+* Conceptualized vision and visual prototype for a new social-driven platform to accelerate knowledge sharing.
+
 :::
 :::
 :::
@@ -173,15 +171,13 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-front2}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Developed guidelines and project templates, reducing journal content development time and improving quality checks.
+* Crafted 10+ GPT prompts to streamline quality checks and accelerate the process of developing editorial projects.
+* Managed CRM databases for three journals, optimizing communication and stakeholder interactions.
+* Implemented task management boards using Jira Work Management, increasing my team's productivity.
+
 :::
 :::
 :::
@@ -236,15 +232,15 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-jagun}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Leveraged advanced statistical methods, and tidyverse R packages for data analysis, wrangling, and visualization.
+* Published eight scholarly publications in top-tier journals.
+* Co-designed three long-term laboratory experiments and secured funding from two research grants.
+* Coordinated international collaboration with researchers from Germany, USA, and Poland to streamline data collection, financial management, and analysis of the research outcomes.
+* Presented award-winning posters and oral presentations at six international conferences.
+* Taught undergraduate-level courses and mentored master-level students to finalize their research and thesis.
+
 :::
 :::
 :::
@@ -298,15 +294,11 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-mpio}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Led the design, organization, and analysis of an interdisciplinary research project.
+* Developed, tested, and validated a measurement system prototype, reducing data acquisition costs by 10 times.
+
 :::
 :::
 :::
@@ -360,15 +352,12 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-uri}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Presented my doctoral research at SICB 2019, an international conference held in Tampa, Florida.
+* Expanded professional network by establishing connections with leading researchers in my field.
+* Conducted analyses of research data and drafted a manuscript for the next article during a visit to Scott McWilliams' lab at URI; Learned new lab assays and data analysis techniques.
+
 :::
 :::
 :::
@@ -427,15 +416,12 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-trans}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Designed diverse visual assets including logotypes, social media graphics, brochures, and flyers.
+* Managed desktop publishing tasks and engaged in customer communication, enhancing graphic design skills.
+* Presented research at the international conference 'Biomedical Basis of Elite Performance 2016,' mastering effective communication and sharing findings with a global audience.
+
 :::
 :::
 :::
@@ -488,15 +474,12 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-unity}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Created impactful visual assets including logos and social media graphics.
+* Maintained WordPress-based webpages, ensuring visual appeal and up-to-date content.
+* Collaborated on successful marketing campaigns and optimized graphics for improved user engagement.
+
 :::
 :::
 :::
@@ -547,15 +530,12 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-lab}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Managed long-term experimental evolution project overseeing a large laboratory population of bank voles.
+* Executed experiments, and collaborated with students and researchers, gaining insights into experimental methodologies and data analysis techniques.
+* Developed skills in attention to detail, data organization, and management, laying the foundation for a researcher mindset.
+
 :::
 :::
 :::
@@ -792,15 +772,14 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
 :::{.collapse #list-inter}
 :::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
+**About the programme:**
+
+* The Program was an elite form of support for PhD students who wished to expand their research skills, increase their scientific and professional potential, and familiarize themselves with research practices in other areas and disciplines of science.
+
 **Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* Organized abroad an interdisciplinary research project conducted at the Max Planck Institute for Biological Intelligence (former Ornithology)
+
 :::
 :::
 :::
@@ -855,14 +834,24 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 :::{.collapse #list-phd}
 :::{.card .card-body}
 **Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
-**Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* *A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*
+
+**Scholarships:**
+
+* 2020 - PhD scholarship for best students issued by Rector of Jagiellonian University
+* 2016, 2018, 2020 - PhD scholarship for best students issued by the Dean of Faculty of Biology of Jagiellonian University
+
+**Awards:**
+
+* 2019 - Award for best poster presentation at Polish Evolutionary Converence 2019, Gdańsk, PL
+* 2018 - Award for best oral presentation - runner up - at Polish Evolutionary Converence 2018, Warsaw, PL
+
+**Grants:**
+
+* 2019 - Grant for PhD research: *Linking variation in the cell size to the rate of metabolism at different level of biological organization* (~23k PLN)
+* 2017 - Grant for PhD research: *Rate of oxygen consumption at three levels of biological organization in bank voles selected for increased aerobic metabolism: pilot studies* (~25k PLN)
+
 :::
 :::
 :::
@@ -917,14 +906,13 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 :::{.collapse #list-msc}
 :::{.card .card-body}
 **Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
-**Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
+
+* *Effect of selection and endurance training on maximum rate of exercise metabolism in bank voles*
+
+**Scholarships:**
+
+* 2014 - Scholarship for best students issued by the Dean of Faculty of Biology of Jagiellonian University
+
 :::
 :::
 :::
@@ -967,7 +955,7 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 :::
 
 ::: {.g-col-12 .g-col-lg-9 .grid-details}
-[details {{< fa chevron-down size=small >}}](#list-bsc){data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="list-bsc"} 
+
 :::
 
 ::: {.g-col-12 .g-col-lg-3}
@@ -975,19 +963,7 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 :::
 
 ::: {.g-col-12 .g-col-lg-9 .grid-details-cont}
-:::{.collapse #list-bsc}
-:::{.card .card-body}
-**Dissertation:**
-<ul>
-  <li>*A berry a day keeps the costs away? The physiological effects of dietary anthocyanins in a migratory songbird, European starling (Sturnus vulgaris)*</li>
-</ul>
-**Achievements:**
-<ul>
-  <li>first</li>
-  <li>second</li>
-</ul>
-:::
-:::
+
 :::
 
 <!-- content end-->
