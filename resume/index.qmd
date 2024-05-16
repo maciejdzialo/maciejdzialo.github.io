@@ -15,6 +15,8 @@ toc-expand: true
 {{< fa location-pin >}} Rzeszów, Poland
 
 {{< fa envelope >}} maciejdzialo [at] gmail.com
+
+or reach out via [contact page &rarr;](contact/index.qmd)
 :::
 
 :::{.social-links}
