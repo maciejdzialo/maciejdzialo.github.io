@@ -6,7 +6,7 @@ subtitle: |
   <p class="multipleStrings"></p>
   <script>
   new TypeIt(".multipleStrings", {
-    strings: ["I'm a data explorer.", "I enjoy finding stories in data."],
+    strings: ["I'm a scientist and data explorer.", "I enjoy finding stories in data."],
     breakLines: false,
     loop: false,
     speed: 80
