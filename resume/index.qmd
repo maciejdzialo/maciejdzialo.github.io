@@ -13,6 +13,8 @@ toc-expand: true
 :::{.location}
 [Maciej Działo]{.h2}
 
+scientist & data analyst
+
 {{< fa location-pin >}} Rzeszów, Poland
 
 {{< fa envelope >}} maciejdzialo [at] gmail.com
@@ -33,16 +35,17 @@ or reach out via [contact page &rarr;](/contact.qmd)
 
 
 
-# short summary
+# summary
 
 ::: {.grid .grid-resume}
-::: {.g-col-12 .g-col-md-6 .cont-light}
-I’m a Data Analyst with a rich scientific background, passionate about turning data into meaningful stories that drive strategic decisions and positive change. With over eight years of experience in international research and two years in open-access scholarly publishing, I currently work as a Publishing Specialist at Frontiers Media. Here, I use my analytical expertise to support journal growth and engage with the global scientific community. My PhD in Life Sciences from Jagiellonian University has honed my skills in advanced statistical methods and interdisciplinary research.
+::: {.g-col-12 .g-col-md-4 .cont-light}
+I am driven by continuous learning and self-improvement, constantly seeking to expand my skills and knowledge. My academic and publishing journey has taught me the importance of effective communication and problem-solving, always striving for optimal solutions.
 :::
-::: {.g-col-12 .g-col-md-6 .cont-light}
-Throughout my career, I’ve enjoyed designing experiments, ensuring research reproducibility, and crafting clear, data-driven narratives. My journey has taught me the importance of effective communication and problem-solving, always striving for the best solutions.
-
-I’m driven by continuous learning and self-improvement, constantly seeking to enhance my skills and knowledge. I believe in the power of data to tell compelling stories and the value of simple, effective solutions. Embracing collaboration and innovation, I aim to help teams make smarter, data-driven decisions and contribute to a healthier planet.
+::: {.g-col-12 .g-col-md-4 .cont-light}
+As a scientist, I have enjoyed designing and analyzing research, ensuring its reproducibility, and crafting clear, data-driven narratives. I have honed my skills in advanced statistical and research methodologies.
+:::
+::: {.g-col-12 .g-col-md-4 .cont-light}
+I believe in the power of data to tell compelling stories and the value of simple, effective solutions. Embracing collaboration and innovation, I aim to help teams make smarter, data-driven decisions so that together we can contribute to a better future.
 :::
 :::
 
@@ -50,6 +53,9 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 
 
 # professional experience
+
+
+
 
 <!-- grid section start-->
 ::: {.grid .grid-resume}
@@ -174,7 +180,7 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 **Achievements:**
 
 * Developed guidelines and project templates, reducing journal content development time and improving quality checks.
-* Crafted 10+ GPT prompts to streamline quality checks and accelerate the process of developing editorial projects.
+* Crafted GPT prompts to streamline quality checks and accelerate the process of developing editorial projects.
 * Managed CRM databases for three journals, optimizing communication and stakeholder interactions.
 * Implemented task management boards using Jira Work Management, increasing my team's productivity.
 
@@ -356,7 +362,7 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 
 * Presented my doctoral research at SICB 2019, an international conference held in Tampa, Florida.
 * Expanded professional network by establishing connections with leading researchers in my field.
-* Conducted analyses of research data and drafted a manuscript for the next article during a visit to Scott McWilliams' lab at URI; Learned new lab assays and data analysis techniques.
+* Conducted analyses of research data and drafted article manuscript for the next article.
 
 :::
 :::
@@ -420,7 +426,7 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 
 * Designed diverse visual assets including logotypes, social media graphics, brochures, and flyers.
 * Managed desktop publishing tasks and engaged in customer communication, enhancing graphic design skills.
-* Presented research at the international conference 'Biomedical Basis of Elite Performance 2016,' mastering effective communication and sharing findings with a global audience.
+* Presented research at the international conference *Biomedical Basis of Elite Performance 2016* held in Nottingham, UK, mastering effective communication and sharing findings with a global audience.
 
 :::
 :::

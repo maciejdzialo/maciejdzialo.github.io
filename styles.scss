@@ -103,11 +103,6 @@ $badge-border-radius:             .5rem ;
   text-align: left;
 }
 
-
-.bg-primary:hover {
-  color: lighten($body-color, 20%);
-}
-
 // add horizontal line at the top
 #quarto-header {
   border-top: 5px solid $body-color;
