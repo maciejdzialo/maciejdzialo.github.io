@@ -75,8 +75,8 @@ $badge-border-radius:             .5rem ;
 }
 
 .navbar-title i {
-  color: $primary;
-  background-color: $body-color;
+  color: $body-color;
+  background-color: $primary;
   padding-top: .2rem;
   padding-bottom: .25rem;
   padding-left: .3rem;
@@ -326,12 +326,18 @@ div.quarto-about-solana  .about-entity .about-link:hover{
   margin-top: 0 !important;
 }
 
-.accordion {
-    --bs-accordion-btn-focus-box-shadow: none;
-    --bs-accordion-active-bg: none;
-    --bs-accordion-active-color: $body-color;
+.no-bg {
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-active-bg: none;
+  --bs-accordion-active-color: $body-color;
+  --bs-accordion-bg: none;
+  --bs-accordion-btn-bg: none;
+  --bs-accordion-border-color: none;
 }
 
+.accordion-button {
+  font-weight: bold;
+}
 
 // home containers
 
@@ -343,10 +349,7 @@ body {
   --grid-width: 100%;
 }
 
-.homeicon {
-  font-size: 250%;
-  color: $body-bg;
-}
+
 
 /* Style for light container */
 .cont-light {
@@ -425,12 +428,12 @@ body {
 /* Style for icon container */
 
 .cont-home-icon {
-  padding-top: 1.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-top: .75rem;
+  //padding-left: 1.5rem;
+  //padding-right: 1.5rem;
   position: relative;
   border-radius: 1rem !important;
-  background-color: $body-color;
+  //background-color: $body-color;
 }
 
 .cont-home-icon a,
@@ -440,15 +443,22 @@ body {
 .cont-home-icon h4,
 .cont-home-icon h5,
 .cont-home-icon h6 {
-  color: $body-bg;
+  color: $primary;
 }
 
+.homeicon {
+  font-size: 200%;
+  color: $body-color;
+  background-color: $primary;
+  padding: 1rem;
+  border-radius: 1rem !important;
+}
 
 @media screen and (max-width: 768px) {
   .cont-home-icon {
     order: 1 !important;
-    padding-top: .5rem;
-    padding-bottom: .3rem;
+    padding: .5rem;
+    background-color: $primary;
   }
 
   .cont-light {
@@ -458,6 +468,18 @@ body {
   .cont-light-img {
     order: 3 !important;
   }
+
+  .homeicon {
+  font-size: 150%;
+  padding-top: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: -1.5rem;
+  border-radius: 1rem !important;
+  display: flex;
+  align-items: flex-start;
+}
+
 }
 
 
@@ -730,6 +752,7 @@ body {
 }
 
 .social-links {
+  color: $primary;
   display: flex;
   gap: 10px;
   justify-content: center;

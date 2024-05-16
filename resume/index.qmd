@@ -596,7 +596,7 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
 ```{=html}
 
 
-<div class="accordion bottom-padding" id="accordion-glance">
+<div class="accordion bottom-padding no-bg" id="accordion-glance">
 
 <div class="accordion-item">
   <p class="accordion-header">

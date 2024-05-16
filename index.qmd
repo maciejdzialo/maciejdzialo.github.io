@@ -66,7 +66,7 @@ Thanks for popping into my little corner of the internet!<br><br>I'm a data anal
 ```{=html}
 
 
-<div class="accordion bottom-padding" id="accordion-glance">
+<div class="accordion bottom-padding no-bg" id="accordion-glance">
 
 <div class="accordion-item">
   <h2 class="accordion-header">
