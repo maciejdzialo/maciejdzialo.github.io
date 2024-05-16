@@ -206,7 +206,7 @@ Thanks for popping into my little corner of the internet!<br><br>I'm a scientist
 ::: {.grid .grid-right}
 ::: {.g-col-12 .g-col-md-7 .cont-light}
 ### I analyse data
-My doctorate research has equipped me with hands-on experience in both exploratory and statistical analysis. I'm skilled in R, SQL, and spreadsheets, and I enjoy tinkering with visualizations - to craft a narrative driven by data insights.
+My academic research has equipped me with hands-on experience in both exploratory and statistical analysis. I'm skilled in R, SQL, and spreadsheets, and I enjoy tinkering with visualizations - to craft a narrative driven by data insights.
 :::
 ::: {.g-col-12 .g-col-md-4 .cont-light-img}
 ### [My projects {{< fa link >}}](posts/index.qmd)
