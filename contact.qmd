@@ -24,7 +24,7 @@ maciejdzialo [at] gmail.com {{< fa envelope-open-text >}}
 
 # let's have a chat {{< fa coffee >}}
 
-If you prefer to have online chat, feel free to schedule the online meeting using my [Calendly {{< fa video >}}](https://calendly.com/maciejdzialo/quick-video-call){target="_blank"}
+If you prefer to have online chat, feel free to schedule online meeting using my [Calendly {{< fa video >}}](https://calendly.com/maciejdzialo/quick-video-call){target="_blank"}
 
 :::
 
@@ -43,7 +43,7 @@ If you prefer to have online chat, feel free to schedule the online meeting usin
 <input type="email" name="Reply to" id="email-address" class="form-control" placeholder="your@email.here" required>
 
 <label for="message" class="mb-2">Your Message</label>
-  <textarea rows="5" name="Message" id="message" class="form-control" placeholder="" required></textarea>
+  <textarea rows="5" name="Message" id="message" class="form-control" placeholder="Ask, comment, or just say "hi!" required></textarea>
 
 <button type="submit" class="btn btn-primary mt-4 mb-3">Send message</button>
 </form>

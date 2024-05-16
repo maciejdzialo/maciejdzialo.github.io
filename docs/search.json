@@ -18,7 +18,7 @@
     "href": "contact.html",
     "title": "contact",
     "section": "",
-    "text": "send me a note \nIf you are interested in connecting with me, you can use the form to contact me about collaboration, or simply to say hello.\nYou can also connect with me on LinkedIn  or send your message via email using:\nmaciejdzialo [at] gmail.com \n\n\nlet’s have a chat \nIf you prefer to have online chat, feel free to schedule the online meeting using my Calendly \n\n\n\n\n\nYour Full Name \nYour Email Address \nYour Message\n\n\nSend message\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "send me a note \nIf you are interested in connecting with me, you can use the form to contact me about collaboration, or simply to say hello.\nYou can also connect with me on LinkedIn  or send your message via email using:\nmaciejdzialo [at] gmail.com \n\n\nlet’s have a chat \nIf you prefer to have online chat, feel free to schedule online meeting using my Calendly \n\n\n\n\n\nYour Full Name \nYour Email Address \nYour Message &lt;textarea rows=“5” name=“Message” id=“message” class=“form-control” placeholder=“Ask, comment, or just say”hi!” required&gt;\n\n\nSend message\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
