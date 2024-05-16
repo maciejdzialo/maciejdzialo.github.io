@@ -1,0 +1,53 @@
+---
+title: "contact"
+toc: false
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6 }
+
+::: {.g-col-12 .cont-light .bottom-margin}
+
+# send me a note {{< fa envelope >}}
+
+If you are interested in connecting with me, you can use [the form](#form) to contact me about collaboration, or simply to say hello.
+
+You can also connect with me on [LinkedIn {{< fa brands linkedin >}}](https://www.linkedin.com/in/maciej-dzialo/){target="_blank"} or send your message via email using:
+
+maciejdzialo [at] gmail.com {{< fa envelope-open-text >}}
+
+:::
+
+::: {.g-col-12 .cont-light }
+
+# let's have a chat {{< fa coffee >}}
+
+If you prefer to have online chat, feel free to schedule the online meeting using my [Calendly {{< fa video >}}](https://calendly.com/maciejdzialo/quick-video-call){target="_blank"}
+
+:::
+
+:::
+<!-- source: https://github.com/mccarthy-m-g/tidytales/blob/main/about/index.qmd#L24-L46 -->
+
+::: {.g-col-12 .g-col-md-6 .cont-light #form}
+
+<form action="https://formspree.io/f/xzbnwoew" method="POST" accept-charset="utf-8">
+
+
+<label for="full-name" class="mb-2">Your Full Name</label>
+<input type="text" name="From" id="full-name" class="form-control" placeholder="First and Last" required>
+
+<label for="email-address" class="mb-2">Your Email Address</label>
+<input type="email" name="Reply to" id="email-address" class="form-control" placeholder="your@email.here" required>
+
+<label for="message" class="mb-2">Your Message</label>
+  <textarea rows="5" name="Message" id="message" class="form-control" placeholder="" required></textarea>
+
+<button type="submit" class="btn btn-primary mt-4 mb-3">Send message</button>
+</form>
+:::
+
+:::
+<!-- end grid -->

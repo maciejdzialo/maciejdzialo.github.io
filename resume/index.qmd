@@ -16,7 +16,7 @@ toc-expand: true
 
 {{< fa envelope >}} maciejdzialo [at] gmail.com
 
-or reach out via [contact page &rarr;](contact/index.qmd)
+or reach out via [contact page &rarr;](/contact.qmd)
 :::
 
 :::{.social-links}
@@ -678,6 +678,8 @@ I’m driven by continuous learning and self-improvement, constantly seeking to 
       <span class="badge bg-success">Notion</span>
       <span class="badge bg-success">UNIX/Linux</span>
       <span class="badge bg-success">Github</span>
+      <span class="badge bg-success">HTML</span>
+      <span class="badge bg-success">CSS</span>
     </div>
   </div>
 </div>
