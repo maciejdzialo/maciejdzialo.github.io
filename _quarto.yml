@@ -15,7 +15,7 @@ website:
       - text: insights & data
         href: posts/index.qmd
       - icon: envelope-fill
-        href: contact.qmd
+        href: contact/index.qmd
         text: " "
 
 

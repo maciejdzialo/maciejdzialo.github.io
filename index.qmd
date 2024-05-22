@@ -47,7 +47,7 @@ format:
 Thanks for popping into my little corner of the internet!<br><br>I'm a scientist and data analyst with background in life sciences, and I love diving into data to uncover valuable **insights**. For over eight years, I collaborated on international **research** projects, and I've dedicated two years to the world of open-access scholarly publishing. My career goal is simple: **to empower** teams and make smarter, data-driven decisions together.
 
 [Learn more about me &rarr;](resume/index.qmd){.about-links}
-[Let's have a chat! &rarr;](/contact.qmd){.about-links}
+[Let's have a chat! &rarr;](contact/index.qmd){.about-links}
 
 :::
 <br>
