@@ -14,9 +14,7 @@ toc: false
 
 If you are interested in connecting with me, you can use [the form](#form) to contact me about collaboration, or simply to say hello.
 
-You can also connect with me on [LinkedIn {{< fa brands linkedin >}}](https://www.linkedin.com/in/maciej-dzialo/){target="_blank"} or send your message via email using:
-
-maciejdzialo [at] gmail.com {{< fa envelope-open-text >}}
+You can also connect with me on [LinkedIn {{< fa brands linkedin >}}](https://www.linkedin.com/in/maciej-dzialo/){target="_blank"}
 
 :::
 
