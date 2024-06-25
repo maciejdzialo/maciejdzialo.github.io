@@ -598,9 +598,11 @@ I believe in the power of data to tell compelling stories and the value of simpl
       <span class="badge bg-primary">R/Tidyverse</span>
       <span class="badge bg-primary">Quarto</span>
       <span class="badge bg-primary">SQL</span>
+      <span class="badge bg-primary">DuckDB</span>
       <span class="badge bg-primary">Excel</span>
+      <span class="badge bg-primary">Power Query</span>
+      <span class="badge bg-primary">Power BI</span>
       <span class="badge bg-primary">Google Sheets</span>
-      <span class="badge bg-primary">SAS</span>
     </div>
   </div>
 </div>
@@ -619,6 +621,7 @@ I believe in the power of data to tell compelling stories and the value of simpl
       <span class="badge bg-secondary">Research methodologies</span>
       <span class="badge bg-secondary">Experimental design</span>
       <span class="badge bg-secondary">Linear models</span>
+      <span class="badge bg-secondary">ETL</span>
     </div>
   </div>
 </div>
