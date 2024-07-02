@@ -690,7 +690,7 @@ I believe in the power of data to tell compelling stories and the value of simpl
 <div class="accordion-item">
   <p class="accordion-header unnumbered">
     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataCamp" aria-expanded="true" aria-controls="collapseDataCamp">
-      Certifications
+      Coursework
     </button>
   </p>
   <div id="collapseDataCamp" class="accordion-collapse collapse show" data-bs-parent="#accordion-glance">

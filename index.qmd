@@ -172,7 +172,7 @@ Thanks for popping into my little corner of the internet!<br><br>I'm a scientist
 <div class="accordion-item">
   <h2 class="accordion-header">
     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataCamp" aria-expanded="true" aria-controls="collapseDataCamp">
-      Certifications
+      Coursework
     </button>
   </h2>
   <div id="collapseDataCamp" class="accordion-collapse collapse" data-bs-parent="#accordion-glance">
