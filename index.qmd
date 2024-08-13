@@ -1,17 +1,6 @@
 ---
 title: "hi, I'm Maciej"
 pagetitle: "Maciej Działo"
-subtitle: |
-  <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script> 
-  <p class="multipleStrings"></p>
-  <script>
-  new TypeIt(".multipleStrings", {
-    strings: ["I'm a scientist and data analyst.", "I enjoy finding stories in data."],
-    breakLines: false,
-    loop: false,
-    speed: 80
-  }).go();
-  </script>
 image: assets/img/md_headshot.jpg
 
 about:
